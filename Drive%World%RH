@@ -17,7 +17,7 @@ local tab1 = window:Tab("AutoFarm")
 local tab2 = window:Tab("Races")
 local tab3 = window:Tab("Credits")
 
-tab1:Toggle("AutoFarm [Drive]",function(v)
+tab1:Toggle("AutoFarm [Drive]",function(state)
     getfenv().drive = (state and true or false)
     while getfenv().drive do
        local plr = game.Players.LocalPlayer
@@ -47,7 +47,7 @@ tab1:Toggle("AutoFarm [Drive]",function(v)
     end  
 end)
 
-tab1:Toggle("AutoFarm [Air]",function(v)
+tab1:Toggle("AutoFarm [Air]",function(state)
     getfenv().air = (state and true or false)
     while getfenv().air do
        while getfenv().air do
@@ -97,7 +97,7 @@ tab1:Toggle("AutoFarm [Air]",function(v)
     end   
 end)
 
-tab1:Toggle("AutoFarm [Drift]",function(v)
+tab1:Toggle("AutoFarm [Drift]",function(state)
     getfenv().autodrift = (state and true or false)
     while getfenv().autodrift do
        task.wait()
@@ -143,7 +143,7 @@ tab1:Toggle("AutoFarm [Drift]",function(v)
     end    
 end)
 
-tab2:Toggle("AutoFarm [Race XP]",function(v)
+tab2:Toggle("AutoFarm [Race XP]",function(state)
     getfenv().xprace = (state and true or false)
     local function getrace()
        local plr = game.Players.LocalPlayer
@@ -213,7 +213,7 @@ tab2:Toggle("AutoFarm [Race XP]",function(v)
     end
 end)
 
-tab2:Toggle("AutoFarm [Race XP]",function(v)
+tab2:Toggle("AutoFarm [Race XP]",function(state)
     getfenv().urace = (state and true or false)
     spawn(function()
        while getfenv().urace do
