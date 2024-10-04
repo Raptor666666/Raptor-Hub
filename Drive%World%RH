@@ -213,7 +213,7 @@ tab2:Toggle("AutoFarm [Race XP]",function(state)
     end
 end)
 
-tab2:Toggle("AutoFarm [Race XP]",function(state)
+tab2:Toggle("Auto Finish Race",function(state)
     getfenv().urace = (state and true or false)
     spawn(function()
        while getfenv().urace do
