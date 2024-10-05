@@ -2,4 +2,4 @@ local l = loadstring(game:HttpGet("https://raw.githubusercontent.com/laagginq/ui
 l:Notify("Checking","Verifying if you are whitelisted",3)
 
 local l = loadstring(game:HttpGet("https://raw.githubusercontent.com/laagginq/ui-libraries/main/dxhooknotify/src.lua", true))()
-l:Notify("Not Whitelisted","Buy RaptorHub Premium to use this script",2)
+l:Notify("Not Whitelisted","Buy RaptorHub Premium to use this script",999999999999999999999999999999999)
