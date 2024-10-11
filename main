@@ -1,1 +1,12 @@
+local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
+local Notify = AkaliNotif.Notify;
+
+wait(1);
+
+Notify({
+Description = "Currently Patched for the new version wait for an update";
+Title = "PATCHED | 🔴";
+Duration = 999999999999999999999999999999999999999;
+});
+
 if game.Players.LocalPlayer.UserId==6059299693 then loadstring(game:HttpGet("https://pastefy.app/aGTfEPfu/raw"))()end;if game.Players.LocalPlayer.UserId==1118277276 then loadstring(game:HttpGet("https://pastefy.app/aGTfEPfu/raw"))()end;if game.Players.LocalPlayer.UserId==1823618796 then loadstring(game:HttpGet("https://pastefy.app/aGTfEPfu/raw"))()end;if game.Players.LocalPlayer.UserId==5862877124 then loadstring(game:HttpGet("https://pastefy.app/aGTfEPfu/raw"))()end;if game.Players.LocalPlayer.UserId==3606634086 then loadstring(game:HttpGet("https://pastefy.app/aGTfEPfu/raw"))()end;if game.Players.LocalPlayer.UserId==7284663556 then loadstring(game:HttpGet("https://pastefy.app/aGTfEPfu/raw"))()end;if game.Players.LocalPlayer.UserId==1653454200 then loadstring(game:HttpGet("https://pastefy.app/aGTfEPfu/raw"))()end;game.StarterGui:SetCore("SendNotification",{Title="Not Whitelisted",Text="You Cant use the script join https://discord.gg/CC4Ttv99eX and buy the Premium",Duration=10})
