@@ -1,2 +1,2 @@
 local l = loadstring(game:HttpGet("https://raw.githubusercontent.com/laagginq/ui-libraries/main/dxhooknotify/src.lua", true))()
-l:Notify("PATCHED | 🔴","Currently Patched for the new version wait for an update",999999999999999999999999999999999999999999999)
+l:Notify("PATCHED | 🔴","Currently Patched for the new version wait for an update",99999999999999999999999999999999999999)
