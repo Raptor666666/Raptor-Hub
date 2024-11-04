@@ -15,15 +15,15 @@ local Window = Rayfield:CreateWindow({
       Invite = "", -- The Discord invite code, do not include discord.gg/
       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
    },
-   KeySystem = false, -- Set this to true to use our key system
+   KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
-      Title = "Arrayfield",
+      Title = "Emergency Hamburg",
       Subtitle = "Key System",
-      Note = "Join the discord (discord.gg/sirius)",
-      FileName = "SiriusKey",
-      SaveKey = false,
+      Note = "Join the discord (discord.gg/ZRTarX6Vjm)",
+      FileName = "RaptorHub Key",
+      SaveKey = true,
       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-      Key = "Hello"
+      Key = "ZozoOnTop"
    }
 })
 local Tab = Window:CreateTab("Emergency Hamburg", 4483362458) -- Title, Image
