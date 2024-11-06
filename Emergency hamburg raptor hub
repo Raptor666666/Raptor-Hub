@@ -25,7 +25,7 @@ local Window = Rayfield:CreateWindow({
       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
       Key = "ZozoOnTop"
    }
-})
+}) 
 local Tab = Window:CreateTab("Emergency Hamburg", 4483362458) -- Title, Image
 local Section = Tab:CreateSection("Keys",false) -- The 2nd argument is to tell if its only a Title and doesnt contain element
 
