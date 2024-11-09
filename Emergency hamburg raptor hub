@@ -29,7 +29,7 @@ function charger_script()
    local Tab = Window:CreateTab("Emergency Hamburg", 4483362458) -- Title, Image
    local Section = Tab:CreateSection("Keys",false) -- The 2nd argument is to tell if its only a Title and doesnt contain element
    
-   local Label = Tab:CreateLabel("AirFlow Key, AirFlow Key is : 78252",Section)
+   local Label = Tab:CreateLabel("AirFlow Key, AirFlow Key is : 19590",Section)
    local Toggle = Tab:CreateToggle({
       Name = "AirFlow",
       Info = "", -- Speaks for itself, Remove if none.
