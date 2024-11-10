@@ -1,9 +1,8 @@
 function charger_script()
-    if game.PlaceId == 5712833750 then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/xpzrmodzz/animal-simulator-/refs/heads/main/animal%20simulator"))()
+    if game.PlaceId == 7711635737 then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Raptor666666/Raptor-Hub/refs/heads/main/emergency"))()
     elseif game.PlaceId == 13110267312 then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/xpzrmodzz/hub-for-UW/main/README.md"))()
-    elseif game.PlaceId == 5569431582 then
+loadstring(game:HttpGet("
 
         print("ID de place non reconnu : " .. game.PlaceId)
     end
