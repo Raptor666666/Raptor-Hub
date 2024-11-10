@@ -1,5 +1,5 @@
 function charger_script()
-   if game.PlaceId == 7711635737 then
+   if game.PlaceId == 7711635737, 15327728308  then
    local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/UI-Interface/CustomFIeld/main/RayField.lua'))()
    local Window = Rayfield:CreateWindow({
       Name = "Emergency Hamburg/RaptorHub",
