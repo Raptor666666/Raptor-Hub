@@ -1,9 +1,8 @@
 function charger_script()
     if game.PlaceId == 7711635737 then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Raptor666666/Raptor-Hub/refs/heads/main/emergency"))()
-    elseif game.PlaceId == 13110267312 then
-loadstring(game:HttpGet("
-
+    elseif game.PlaceId == 15327728308 then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Raptor666666/Raptor-Hub/refs/heads/main/emergency"))()
         print("ID de place non reconnu : " .. game.PlaceId)
     end
 end
