@@ -1,0 +1,646 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local AnimalSim = Instance.new("ScreenGui")
+local TextButton = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+local TextButton_8 = Instance.new("TextButton")
+local TextButton_9 = Instance.new("TextButton")
+local TextButton_10 = Instance.new("TextButton")
+local TextButton_11 = Instance.new("TextButton")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local TextButton_12 = Instance.new("TextButton")
+local Frame_3 = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextButton_13 = Instance.new("TextButton")
+local TextButton_14 = Instance.new("TextButton")
+local TextButton_15 = Instance.new("TextButton")
+local TextButton_16 = Instance.new("TextButton")
+local TextButton_17 = Instance.new("TextButton")
+local TextButton_18 = Instance.new("TextButton")
+local TextButton_19 = Instance.new("TextButton")
+local TextButton_20 = Instance.new("TextButton")
+local TextButton_21 = Instance.new("TextButton")
+local TextButton_22 = Instance.new("TextButton")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local TextButton_23 = Instance.new("TextButton")
+local ImageLabel = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+local TextLabel_3 = Instance.new("TextLabel")
+local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
+
+--Properties:
+
+AnimalSim.Name = "Animal Sim"
+AnimalSim.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+AnimalSim.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+TextButton.Parent = AnimalSim
+TextButton.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.00810372736, 0, 0.664150953, 0)
+TextButton.Size = UDim2.new(0.119935155, 0, 0.0465408787, 0)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Animal Sim"
+TextButton.TextColor3 = Color3.fromRGB(170, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 29.000
+TextButton.TextWrapped = true
+
+UICorner.Parent = TextButton
+
+UITextSizeConstraint.Parent = TextButton
+UITextSizeConstraint.MaxTextSize = 29
+
+UIAspectRatioConstraint.Parent = TextButton
+UIAspectRatioConstraint.AspectRatio = 4.000
+
+Frame.Parent = AnimalSim
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.225283638, 0, 0.16352202, 0)
+Frame.Size = UDim2.new(0.638573766, 0, 0.670440018, 0)
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.BackgroundTransparency = 0.600
+Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(-0.00060469727, 0, -0.00187605876, 0)
+Frame_2.Size = UDim2.new(0.347749054, 0, 1.00187612, 0)
+
+TextLabel.Parent = Frame_2
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(1, 0, 0.0939849839, 0)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "🎯 Farm 🐻"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextButton_2.Parent = Frame_2
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 0.400
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0, 0, 0.133458674, 0)
+TextButton_2.Size = UDim2.new(0.333333343, 0, 0.0939849839, 0)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Kill 🐻"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+TextButton_2.MouseButton1Click:Connect(function()
+	while true do
+		local args = {
+			[1] = workspace:WaitForChild("NPC"):WaitForChild("BOSSBEAR"):WaitForChild("Humanoid"),
+			[2] = 3
+		}
+
+		game:GetService("ReplicatedStorage"):WaitForChild("jdskhfsIIIllliiIIIdchgdIiIIIlIlIli"):FireServer(unpack(args))
+		wait()
+	end
+end)
+
+TextButton_3.Parent = Frame_2
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.BackgroundTransparency = 0.400
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Position = UDim2.new(0.333333343, 0, 0.133458674, 0)
+TextButton_3.Size = UDim2.new(0.333333343, 0, 0.0939849839, 0)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Kill 🐸"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 14.000
+TextButton_3.MouseButton1Click:Connect(function()
+	while true do
+		local args = {
+			[1] = workspace:WaitForChild("NPC"):WaitForChild("BOSSFROG"):WaitForChild("Humanoid"),
+			[2] = 3
+		}
+
+		game:GetService("ReplicatedStorage"):WaitForChild("jdskhfsIIIllliiIIIdchgdIiIIIlIlIli"):FireServer(unpack(args))
+		wait()
+	end
+end)
+
+TextButton_4.Parent = Frame_2
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.BackgroundTransparency = 0.400
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Position = UDim2.new(0.666666687, 0, 0.133458674, 0)
+TextButton_4.Size = UDim2.new(0.333333343, 0, 0.0939849839, 0)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "Kill 🦅"
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextSize = 14.000
+TextButton_4.MouseButton1Click:Connect(function()
+	while true do
+		local args = {
+			[1] = workspace:WaitForChild("NPC"):WaitForChild("Griffin"):WaitForChild("Humanoid"),
+			[2] = 3
+		}
+
+		game:GetService("ReplicatedStorage"):WaitForChild("jdskhfsIIIllliiIIIdchgdIiIIIlIlIli"):FireServer(unpack(args))
+		wait()
+	end
+end)
+
+TextButton_5.Parent = Frame_2
+TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.BackgroundTransparency = 0.400
+TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BorderSizePixel = 0
+TextButton_5.Position = UDim2.new(0.333333343, 0, 0.248120353, 0)
+TextButton_5.Size = UDim2.new(0.333333343, 0, 0.0939849839, 0)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "Kill 🦀"
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextSize = 14.000
+TextButton_5.MouseButton1Click:Connect(function()
+	while true do
+		local args = {
+			[1] = workspace:WaitForChild("NPC"):WaitForChild("CRABBOSS"):WaitForChild("Humanoid"),
+			[2] = 3
+		}
+
+		game:GetService("ReplicatedStorage"):WaitForChild("jdskhfsIIIllliiIIIdchgdIiIIIlIlIli"):FireServer(unpack(args))
+		wait()
+	end
+end)
+
+TextButton_6.Parent = Frame_2
+TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.BackgroundTransparency = 0.400
+TextButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.BorderSizePixel = 0
+TextButton_6.Position = UDim2.new(0.666666687, 0, 0.248120353, 0)
+TextButton_6.Size = UDim2.new(0.333333343, 0, 0.0939849839, 0)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = "Kill 🦍"
+TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.TextSize = 14.000
+TextButton_6.MouseButton1Click:Connect(function()
+	while true do
+		local args = {
+			[1] = workspace:WaitForChild("NPC"):WaitForChild("LavaGorilla"):WaitForChild("Humanoid"),
+			[2] = 3
+		}
+
+		game:GetService("ReplicatedStorage"):WaitForChild("jdskhfsIIIllliiIIIdchgdIiIIIlIlIli"):FireServer(unpack(args))
+		wait()
+	end
+end)
+
+TextButton_7.Parent = Frame_2
+TextButton_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.BackgroundTransparency = 0.400
+TextButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.BorderSizePixel = 0
+TextButton_7.Position = UDim2.new(0, 0, 0.248120353, 0)
+TextButton_7.Size = UDim2.new(0.333333343, 0, 0.0939849839, 0)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Text = "Kill 🐴"
+TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.TextSize = 14.000
+TextButton_7.MouseButton1Click:Connect(function()
+	while true do
+		local args = {
+			[1] = workspace:WaitForChild("NPC"):WaitForChild("CENTAUR"):WaitForChild("Humanoid"),
+			[2] = 3
+		}
+
+		game:GetService("ReplicatedStorage"):WaitForChild("jdskhfsIIIllliiIIIdchgdIiIIIlIlIli"):FireServer(unpack(args))
+		wait()
+	end
+end)
+
+TextButton_8.Parent = Frame_2
+TextButton_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.BackgroundTransparency = 0.400
+TextButton_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.BorderSizePixel = 0
+TextButton_8.Position = UDim2.new(0.666666687, 0, 0.364661723, 0)
+TextButton_8.Size = UDim2.new(0.333333343, 0, 0.0939849839, 0)
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.Text = "Dummy 5K"
+TextButton_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.TextSize = 14.000
+TextButton_8.MouseButton1Click:Connect(function()
+	while true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-81.94050598144531, 601.606689453125, 814.6060180664062)
+		while true do
+			local args = {
+				[1] = workspace:WaitForChild("MAP"):WaitForChild("5k_dummies"):WaitForChild("Dummy2"):WaitForChild("Humanoid"),
+				[2] = 1
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("jdskhfsIIIllliiIIIdchgdIiIIIlIlIli"):FireServer(unpack(args))
+			wait()
+		end
+	end
+end)
+
+TextButton_9.Parent = Frame_2
+TextButton_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.BackgroundTransparency = 0.400
+TextButton_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.BorderSizePixel = 0
+TextButton_9.Position = UDim2.new(0, 0, 0.364661723, 0)
+TextButton_9.Size = UDim2.new(0.333333343, 0, 0.0939849839, 0)
+TextButton_9.Font = Enum.Font.SourceSans
+TextButton_9.Text = "Kill 🦒"
+TextButton_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.TextSize = 14.000
+TextButton_9.MouseButton1Click:Connect(function()
+	while true do
+		local args = {
+			[1] = workspace:WaitForChild("NPC"):WaitForChild("DragonGiraffe"):WaitForChild("Humanoid"),
+			[2] = 3
+		}
+
+		game:GetService("ReplicatedStorage"):WaitForChild("jdskhfsIIIllliiIIIdchgdIiIIIlIlIli"):FireServer(unpack(args))
+		wait()
+	end
+end)
+
+TextButton_10.Parent = Frame_2
+TextButton_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.BackgroundTransparency = 0.400
+TextButton_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_10.BorderSizePixel = 0
+TextButton_10.Position = UDim2.new(0.333333343, 0, 0.364661723, 0)
+TextButton_10.Size = UDim2.new(0.333333343, 0, 0.0939849839, 0)
+TextButton_10.Font = Enum.Font.SourceSans
+TextButton_10.Text = "Dummy Spawn"
+TextButton_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_10.TextSize = 14.000
+TextButton_10.MouseButton1Click:Connect(function()
+	while true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-125.49247741699219, 650.7031860351562, 595.1104125976562)
+		while true do
+			local args = {
+				[1] = workspace:WaitForChild("MAP"):WaitForChild("dummies"):WaitForChild("Dummy"):WaitForChild("Humanoid"),
+				[2] = 3
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("jdskhfsIIIllliiIIIdchgdIiIIIlIlIli"):FireServer(unpack(args))
+			wait()
+		end
+	end
+end)
+
+TextButton_11.Parent = Frame_2
+TextButton_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_11.BackgroundTransparency = 0.400
+TextButton_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_11.BorderSizePixel = 0
+TextButton_11.Position = UDim2.new(0, 0, 0.488721907, 0)
+TextButton_11.Size = UDim2.new(0.333333343, 0, 0.0939849839, 0)
+TextButton_11.Font = Enum.Font.SourceSans
+TextButton_11.Text = "Coins Farm"
+TextButton_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_11.TextSize = 14.000
+
+UIAspectRatioConstraint_2.Parent = Frame_2
+UIAspectRatioConstraint_2.AspectRatio = 0.513
+
+TextButton_12.Parent = Frame_2
+TextButton_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_12.BackgroundTransparency = 0.400
+TextButton_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_12.BorderSizePixel = 0
+TextButton_12.Position = UDim2.new(0.333333343, 0, 0.488721907, 0)
+TextButton_12.Size = UDim2.new(0.333333343, 0, 0.0939849839, 0)
+TextButton_12.Font = Enum.Font.SourceSans
+TextButton_12.Text = "Get All Eagle"
+TextButton_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_12.TextSize = 14.000
+TextButton_12.MouseButton1Click:Connect(function()
+	local args = {
+		[1] = "Eag2",
+		[2] = "v2"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+	local args = {
+		[1] = "Eag3",
+		[2] = "v2"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+	local args = {
+		[1] = "Eag4",
+		[2] = "v2"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+	local args = {
+		[1] = "Eag5",
+		[2] = "v2"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+	local args = {
+		[1] = "Eag6",
+		[2] = "v2"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+	local args = {
+		[1] = "Eag7",
+		[2] = "v2"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+	local args = {
+		[1] = "Eag8",
+		[2] = "v2"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+	local args = {
+		[1] = "Eag9",
+		[2] = "v2"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+	local args = {
+		[1] = "Eag10",
+		[2] = "v2"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+end)
+
+Frame_3.Parent = Frame
+Frame_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_3.BackgroundTransparency = 0.600
+Frame_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(0.65277797, 0, -0.000323497894, 0)
+Frame_3.Size = UDim2.new(0.347210169, 0, 1.00032353, 0)
+
+TextLabel_2.Parent = Frame_3
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Size = UDim2.new(1, 0, 0.0939849839, 0)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "🛠️ Misc 🔨"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextButton_13.Parent = Frame_3
+TextButton_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_13.BackgroundTransparency = 0.400
+TextButton_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_13.BorderSizePixel = 0
+TextButton_13.Position = UDim2.new(0.333333343, 0, 0.133458674, 0)
+TextButton_13.Size = UDim2.new(0.333333343, 0, 0.0939849839, 0)
+TextButton_13.Font = Enum.Font.SourceSans
+TextButton_13.Text = "KhSaeed"
+TextButton_13.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_13.TextSize = 14.000
+TextButton_13.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://github.com/KhSaeed90/Roblox/raw/workspace/5712833750"))()
+end)
+
+TextButton_14.Parent = Frame_3
+TextButton_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_14.BackgroundTransparency = 0.400
+TextButton_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_14.BorderSizePixel = 0
+TextButton_14.Position = UDim2.new(0.666666687, 0, 0.133458674, 0)
+TextButton_14.Size = UDim2.new(0.333333343, 0, 0.0939849839, 0)
+TextButton_14.Font = Enum.Font.SourceSans
+TextButton_14.Text = "Bebo Mods"
+TextButton_14.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_14.TextSize = 14.000
+TextButton_14.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Bebo-Mods/BeboScripts/main/AnimalSimulator.lua"))()
+end)
+
+TextButton_15.Parent = Frame_3
+TextButton_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_15.BackgroundTransparency = 0.400
+TextButton_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_15.BorderSizePixel = 0
+TextButton_15.Position = UDim2.new(0.666666687, 0, 0.248120353, 0)
+TextButton_15.Size = UDim2.new(0.333333343, 0, 0.0939849839, 0)
+TextButton_15.Font = Enum.Font.SourceSans
+TextButton_15.Text = "Fly"
+TextButton_15.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_15.TextSize = 14.000
+TextButton_15.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+end)
+
+TextButton_16.Parent = Frame_3
+TextButton_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_16.BackgroundTransparency = 0.400
+TextButton_16.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_16.BorderSizePixel = 0
+TextButton_16.Position = UDim2.new(0, 0, 0.248120353, 0)
+TextButton_16.Size = UDim2.new(0.333333343, 0, 0.0939849839, 0)
+TextButton_16.Font = Enum.Font.SourceSans
+TextButton_16.Text = "FRITE"
+TextButton_16.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_16.TextSize = 14.000
+TextButton_16.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/xpzrmodzz/hub-animal-AS/main/README.md"))()
+end)
+
+TextButton_17.Parent = Frame_3
+TextButton_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_17.BackgroundTransparency = 0.400
+TextButton_17.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_17.BorderSizePixel = 0
+TextButton_17.Position = UDim2.new(0.333333343, 0, 0.248120353, 0)
+TextButton_17.Size = UDim2.new(0.333333343, 0, 0.0939849839, 0)
+TextButton_17.Font = Enum.Font.SourceSans
+TextButton_17.Text = "LT Fruits"
+TextButton_17.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_17.TextSize = 14.000
+TextButton_17.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/kokojoscripts/LT-FRUITS-UPDT/main/1.9"))()
+end)
+
+TextButton_18.Parent = Frame_3
+TextButton_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_18.BackgroundTransparency = 0.400
+TextButton_18.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_18.BorderSizePixel = 0
+TextButton_18.Position = UDim2.new(0.333333343, 0, 0.364661723, 0)
+TextButton_18.Size = UDim2.new(0.333333343, 0, 0.0939849839, 0)
+TextButton_18.Font = Enum.Font.SourceSans
+TextButton_18.Text = "Anti-Detect"
+TextButton_18.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_18.TextSize = 14.000
+TextButton_18.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Pixeluted/adoniscries/main/Source.lua",true))()
+end)
+
+TextButton_19.Parent = Frame_3
+TextButton_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_19.BackgroundTransparency = 0.400
+TextButton_19.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_19.BorderSizePixel = 0
+TextButton_19.Position = UDim2.new(0, 0, 0.364661723, 0)
+TextButton_19.Size = UDim2.new(0.333333343, 0, 0.0939849839, 0)
+TextButton_19.Font = Enum.Font.SourceSans
+TextButton_19.Text = "Force Reset C"
+TextButton_19.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_19.TextSize = 14.000
+TextButton_19.MouseButton1Click:Connect(function()
+	local function forceResetAction()
+		local player = game.Players.LocalPlayer
+		if player.Character and player.Character:FindFirstChild("Humanoid") then
+			player.Character.Humanoid.Health = 0
+		end
+	end
+
+	game:GetService("UserInputService").InputBegan:Connect(function(input, isProcessed)
+		if isProcessed then
+			return
+		end
+
+		if input.KeyCode == Enum.KeyCode.C then
+			forceResetAction()
+		end
+	end)
+end)
+
+TextButton_20.Parent = Frame_3
+TextButton_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_20.BackgroundTransparency = 0.400
+TextButton_20.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_20.BorderSizePixel = 0
+TextButton_20.Position = UDim2.new(0.666666687, 0, 0.364661723, 0)
+TextButton_20.Size = UDim2.new(0.333333343, 0, 0.0939849839, 0)
+TextButton_20.Font = Enum.Font.SourceSans
+TextButton_20.Text = "Chat-Bypasser"
+TextButton_20.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_20.TextSize = 14.000
+TextButton_20.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/BingusWR/Fechatbypassroblox/refs/heads/main/Fe%20Roblox%20ChatBypass")()
+end)
+
+TextButton_21.Parent = Frame_3
+TextButton_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_21.BackgroundTransparency = 0.400
+TextButton_21.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_21.BorderSizePixel = 0
+TextButton_21.Position = UDim2.new(0.333333343, 0, 0.488721907, 0)
+TextButton_21.Size = UDim2.new(0.333333343, 0, 0.0939849839, 0)
+TextButton_21.Font = Enum.Font.SourceSans
+TextButton_21.Text = "Inf-Yield"
+TextButton_21.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_21.TextSize = 14.000
+TextButton_21.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+TextButton_22.Parent = Frame_3
+TextButton_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_22.BackgroundTransparency = 0.400
+TextButton_22.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_22.BorderSizePixel = 0
+TextButton_22.Position = UDim2.new(0, 0, 0.488721907, 0)
+TextButton_22.Size = UDim2.new(0.333333343, 0, 0.0939849839, 0)
+TextButton_22.Font = Enum.Font.SourceSans
+TextButton_22.Text = "ESP"
+TextButton_22.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_22.TextSize = 14.000
+TextButton_22.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/bQAaWJ1K'))()
+end)
+
+UIAspectRatioConstraint_3.Parent = Frame_3
+UIAspectRatioConstraint_3.AspectRatio = 0.513
+
+TextButton_23.Parent = Frame_3
+TextButton_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_23.BackgroundTransparency = 0.400
+TextButton_23.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_23.BorderSizePixel = 0
+TextButton_23.Position = UDim2.new(0, 0, 0.133458674, 0)
+TextButton_23.Size = UDim2.new(0.333333343, 0, 0.0939849839, 0)
+TextButton_23.Font = Enum.Font.SourceSans
+TextButton_23.Text = "Dark Souls"
+TextButton_23.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_23.TextSize = 14.000
+TextButton_23.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://bmacaveli.link/newhub"))()
+end)
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(1.11421323, 0, 0.998124182, 0)
+ImageLabel.Size = UDim2.new(0.158629447, 0, 0.187063038, 0)
+ImageLabel.Image = "rbxassetid://119567611598687"
+
+UIAspectRatioConstraint_4.Parent = ImageLabel
+UIAspectRatioConstraint_4.AspectRatio = 1.254
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(1.06345177, 0, 0.904315531, 0)
+TextLabel_3.Size = UDim2.new(0.182741135, 0, 0.0938086659, 0)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Made By Raptor"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 25.000
+TextLabel_3.TextWrapped = true
+
+UITextSizeConstraint_2.Parent = TextLabel_3
+UITextSizeConstraint_2.MaxTextSize = 25
+
+UIAspectRatioConstraint_5.Parent = TextLabel_3
+UIAspectRatioConstraint_5.AspectRatio = 2.880
+
+-- Scripts:
+
+local function BRCDUP_fake_script() -- AnimalSim.LocalScript 
+	local script = Instance.new('LocalScript', AnimalSim)
+
+	local SGui = script.Parent
+	local Frame = SGui:WaitForChild("Frame")
+	local Button = SGui:WaitForChild("TextButton")
+	
+	Button.MouseButton1Up:Connect(function()
+		Frame.Visible = not Frame.Visible
+	end)
+end
+coroutine.wrap(BRCDUP_fake_script)()
