@@ -3,6 +3,16 @@
 
 -- Instances:
 
+local l = loadstring(game:HttpGet("https://raw.githubusercontent.com/laagginq/ui-libraries/main/dxhooknotify/src.lua", true))()
+l:Notify("Whitelisted","Loading script . . .",3)
+
+warn("Anti-Afk ACTIVATED")
+game:GetService("Players").LocalPlayer.Idled:connect(function()
+warn("🛡️PROTECTED🛡️")
+game:GetService("VirtualUser"):CaptureController()
+game:GetService("VirtualUser"):ClickButton2(Vector2.new())
+end)
+
 local AnimalSim = Instance.new("ScreenGui")
 local TextButton = Instance.new("TextButton")
 local UICorner = Instance.new("UICorner")
@@ -644,3 +654,9 @@ local function BRCDUP_fake_script() -- AnimalSim.LocalScript
 	end)
 end
 coroutine.wrap(BRCDUP_fake_script)()
+
+local l = loadstring(game:HttpGet("https://raw.githubusercontent.com/laagginq/ui-libraries/main/dxhooknotify/src.lua", true))()
+l:Notify("RaptorHub Premium is broken","This is a Temp PREMIUM script",10)
+
+local l = loadstring(game:HttpGet("https://raw.githubusercontent.com/laagginq/ui-libraries/main/dxhooknotify/src.lua", true))()
+l:Notify("Anti-AFK","Anti-AFK Activated",10)
