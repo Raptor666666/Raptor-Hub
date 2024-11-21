@@ -333,6 +333,13 @@ TextButton_11.Font = Enum.Font.SourceSans
 TextButton_11.Text = "Coins Farm"
 TextButton_11.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_11.TextSize = 14.000
+TextButton_11.MouseButton1Click:Connect(function()
+	while true do
+		game:GetService("ReplicatedStorage").Events.CoinEvent:FireServer()
+
+		wait(0.6)
+	end
+end)
 
 UIAspectRatioConstraint_2.Parent = Frame_2
 UIAspectRatioConstraint_2.AspectRatio = 0.513
