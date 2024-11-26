@@ -1,0 +1,197 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local RaptorHubPrem = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local _4 = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local _5 = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local _1 = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local _2 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local _3 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+
+--Properties:
+
+RaptorHubPrem.Name = "RaptorHub Prem"
+RaptorHubPrem.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+RaptorHubPrem.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = RaptorHubPrem
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.293354928, 0, 0.33459118, 0)
+Frame.Size = UDim2.new(0.413290143, 0, 0.33081761, 0)
+Frame.Visible = false
+Frame.Active = true
+Frame.Draggable = true
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.BackgroundTransparency = 0.800
+Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0.0176470578, 0, 0.581749022, 0)
+Frame_2.Size = UDim2.new(0.970588088, 0, 0.380228132, 0)
+
+_4.Name = "4"
+_4.Parent = Frame_2
+_4.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
+_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_4.BorderSizePixel = 0
+_4.Position = UDim2.new(0.0404040441, 0, 0.25, 0)
+_4.Size = UDim2.new(0.404040426, 0, 0.5, 0)
+_4.Font = Enum.Font.SourceSans
+_4.Text = "RaptorHub Free (Soon)"
+_4.TextColor3 = Color3.fromRGB(100, 100, 100)
+_4.TextSize = 25.000
+
+UICorner.Parent = _4
+
+_5.Name = "5"
+_5.Parent = Frame_2
+_5.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
+_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_5.BorderSizePixel = 0
+_5.Position = UDim2.new(0.565656602, 0, 0.25, 0)
+_5.Size = UDim2.new(0.404040426, 0, 0.5, 0)
+_5.Font = Enum.Font.SourceSans
+_5.Text = "RaptorHub Premium"
+_5.TextColor3 = Color3.fromRGB(100, 100, 100)
+_5.TextSize = 25.000
+_5.TextWrapped = true
+_5.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastefy.app/si23t5m0/raw"))()
+end)
+
+UICorner_2.Parent = _5
+
+_1.Name = "1"
+_1.Parent = Frame
+_1.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
+_1.BackgroundTransparency = 0.500
+_1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_1.BorderSizePixel = 0
+_1.Position = UDim2.new(0.449019581, 0, 0.022813689, 0)
+_1.Size = UDim2.new(0.105882354, 0, 0.190114066, 0)
+_1.Font = Enum.Font.SourceSans
+_1.Text = ""
+_1.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1.TextSize = 14.000
+
+UICorner_3.Parent = _1
+
+_2.Name = "2"
+_2.Parent = Frame
+_2.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
+_2.BackgroundTransparency = 0.500
+_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_2.BorderSizePixel = 0
+_2.Position = UDim2.new(0.580392122, 0, 0.022813689, 0)
+_2.Size = UDim2.new(0.105882354, 0, 0.190114066, 0)
+_2.Font = Enum.Font.SourceSans
+_2.Text = ""
+_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_2.TextSize = 14.000
+
+UICorner_4.Parent = _2
+
+_3.Name = "3"
+_3.Parent = Frame
+_3.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
+_3.BackgroundTransparency = 0.500
+_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_3.BorderSizePixel = 0
+_3.Position = UDim2.new(0.709803879, 0, 0.022813689, 0)
+_3.Size = UDim2.new(0.105882354, 0, 0.190114066, 0)
+_3.Font = Enum.Font.SourceSans
+_3.Text = ""
+_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+_3.TextSize = 14.000
+
+UICorner_5.Parent = _3
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.882352889, 0, 0.022813689, 0)
+TextButton.Size = UDim2.new(0.105882354, 0, 0.190114066, 0)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.fromRGB(100, 100, 100)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+UICorner_6.Parent = TextButton
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(0.368627429, 0, 0.190114066, 0)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "RaptorHub"
+TextLabel.TextColor3 = Color3.fromRGB(100, 100, 100)
+TextLabel.TextSize = 30.000
+
+UIAspectRatioConstraint.Parent = Frame
+UIAspectRatioConstraint.AspectRatio = 1.939
+
+TextButton_2.Parent = RaptorHubPrem
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 1.000
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.837925434, 0, 0.815094352, 0)
+TextButton_2.Size = UDim2.new(0.162074551, 0, 0.0628930852, 0)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Open"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 255)
+TextButton_2.TextSize = 40.000
+
+UICorner_7.Parent = TextButton_2
+
+UIAspectRatioConstraint_2.Parent = TextButton_2
+UIAspectRatioConstraint_2.AspectRatio = 4.000
+
+-- Scripts:
+
+local function PLJOTR_fake_script() -- TextLabel.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel)
+
+	
+end
+coroutine.wrap(PLJOTR_fake_script)()
+local function UEUK_fake_script() -- RaptorHubPrem.LocalScript 
+	local script = Instance.new('LocalScript', RaptorHubPrem)
+
+	local Gui = script.Parent
+	local Frame = Gui.Frame
+	local Open = Gui.TextButton
+	local Close = Frame.TextButton
+	
+	Open.MouseButton1Click:Connect(function()
+		Frame.Visible = true
+	end)
+	
+	Close.MouseButton1Click:Connect(function()
+		Frame.Visible = false
+	end)
+end
+coroutine.wrap(UEUK_fake_script)()
