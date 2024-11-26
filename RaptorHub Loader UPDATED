@@ -36,7 +36,6 @@ Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 0
 Frame.Position = UDim2.new(0.293354928, 0, 0.33459118, 0)
 Frame.Size = UDim2.new(0.413290143, 0, 0.33081761, 0)
-Frame.Visible = false
 Frame.Active = true
 Frame.Draggable = true
 
@@ -57,7 +56,7 @@ _4.Position = UDim2.new(0.0404040441, 0, 0.25, 0)
 _4.Size = UDim2.new(0.404040426, 0, 0.5, 0)
 _4.Font = Enum.Font.SourceSans
 _4.Text = "RaptorHub Free (Soon)"
-_4.TextColor3 = Color3.fromRGB(100, 100, 100)
+_4.TextColor3 = Color3.fromRGB(85, 170, 255)
 _4.TextSize = 25.000
 
 UICorner.Parent = _4
@@ -71,7 +70,7 @@ _5.Position = UDim2.new(0.565656602, 0, 0.25, 0)
 _5.Size = UDim2.new(0.404040426, 0, 0.5, 0)
 _5.Font = Enum.Font.SourceSans
 _5.Text = "RaptorHub Premium"
-_5.TextColor3 = Color3.fromRGB(100, 100, 100)
+_5.TextColor3 = Color3.fromRGB(85, 170, 255)
 _5.TextSize = 25.000
 _5.TextWrapped = true
 _5.MouseButton1Click:Connect(function()
@@ -133,7 +132,7 @@ TextButton.Position = UDim2.new(0.882352889, 0, 0.022813689, 0)
 TextButton.Size = UDim2.new(0.105882354, 0, 0.190114066, 0)
 TextButton.Font = Enum.Font.SourceSans
 TextButton.Text = "X"
-TextButton.TextColor3 = Color3.fromRGB(100, 100, 100)
+TextButton.TextColor3 = Color3.fromRGB(85, 170, 255)
 TextButton.TextScaled = true
 TextButton.TextSize = 14.000
 TextButton.TextWrapped = true
@@ -147,7 +146,7 @@ TextLabel.BorderSizePixel = 0
 TextLabel.Size = UDim2.new(0.368627429, 0, 0.190114066, 0)
 TextLabel.Font = Enum.Font.SourceSans
 TextLabel.Text = "RaptorHub"
-TextLabel.TextColor3 = Color3.fromRGB(100, 100, 100)
+TextLabel.TextColor3 = Color3.fromRGB(85, 170, 255)
 TextLabel.TextSize = 30.000
 
 UIAspectRatioConstraint.Parent = Frame
@@ -162,7 +161,7 @@ TextButton_2.Position = UDim2.new(0.837925434, 0, 0.815094352, 0)
 TextButton_2.Size = UDim2.new(0.162074551, 0, 0.0628930852, 0)
 TextButton_2.Font = Enum.Font.SourceSans
 TextButton_2.Text = "Open"
-TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 255)
+TextButton_2.TextColor3 = Color3.fromRGB(85, 170, 255)
 TextButton_2.TextSize = 40.000
 
 UICorner_7.Parent = TextButton_2
@@ -172,13 +171,13 @@ UIAspectRatioConstraint_2.AspectRatio = 4.000
 
 -- Scripts:
 
-local function PLJOTR_fake_script() -- TextLabel.LocalScript 
+local function QTUJA_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	
 end
-coroutine.wrap(PLJOTR_fake_script)()
-local function UEUK_fake_script() -- RaptorHubPrem.LocalScript 
+coroutine.wrap(QTUJA_fake_script)()
+local function PTRIZW_fake_script() -- RaptorHubPrem.LocalScript 
 	local script = Instance.new('LocalScript', RaptorHubPrem)
 
 	local Gui = script.Parent
@@ -194,4 +193,4 @@ local function UEUK_fake_script() -- RaptorHubPrem.LocalScript
 		Frame.Visible = false
 	end)
 end
-coroutine.wrap(UEUK_fake_script)()
+coroutine.wrap(PTRIZW_fake_script)()
