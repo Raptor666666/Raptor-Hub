@@ -1,11 +1,3 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
-local l = loadstring(game:HttpGet("https://raw.githubusercontent.com/laagginq/ui-libraries/main/dxhooknotify/src.lua", true))()
-l:Notify("Whitelisted","Loading script . . .",3)
-
 warn("Anti-Afk ACTIVATED")
 game:GetService("Players").LocalPlayer.Idled:connect(function()
 warn("🛡️PROTECTED🛡️")
@@ -85,6 +77,8 @@ local UICorner_26 = Instance.new("UICorner")
 local TextButton_24 = Instance.new("TextButton")
 local UICorner_27 = Instance.new("UICorner")
 local TextButton_25 = Instance.new("TextButton")
+local TextButton_26 = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
 local UICorner_28 = Instance.new("UICorner")
 local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
 local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
@@ -128,7 +122,7 @@ TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(0.115523577, 0, -9.10066973e-08, 0)
 TextLabel.Size = UDim2.new(0.233380884, 0, 0.172962204, 0)
-TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Font = Enum.Font.FredokaOne
 TextLabel.Text = "RaptorHub  Animal Simulator"
 TextLabel.TextColor3 = Color3.fromRGB(0, 85, 255)
 TextLabel.TextScaled = true
@@ -153,8 +147,8 @@ TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_3.BorderSizePixel = 0
 TextLabel_3.Position = UDim2.new(0.00700139115, 0, 0.767395675, 0)
 TextLabel_3.Size = UDim2.new(0.37691012, 0, 0.210735589, 0)
-TextLabel_3.Font = Enum.Font.SourceSans
-TextLabel_3.Text = "Script Status : Updated/🟢\\nScript GUI Updated V0.2\\nScript Version : 3.2\\nMade By Raptor"
+TextLabel_3.Font = Enum.Font.FredokaOne
+TextLabel_3.Text = "Script Status : Updated/🟢 Script GUI Updated V0.2 Script Version : 3.2 Made By Raptor"
 TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_3.TextScaled = true
 TextLabel_3.TextSize = 14.000
@@ -169,7 +163,7 @@ TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_4.BorderSizePixel = 0
 TextLabel_4.Position = UDim2.new(0.00700139115, 0, 0.691848934, 0)
 TextLabel_4.Size = UDim2.new(0.37691012, 0, 0.0755467191, 0)
-TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Font = Enum.Font.FredokaOne
 TextLabel_4.Text = "Update Logs"
 TextLabel_4.TextColor3 = Color3.fromRGB(0, 85, 255)
 TextLabel_4.TextScaled = true
@@ -210,7 +204,7 @@ TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_7.BorderSizePixel = 0
 TextLabel_7.Position = UDim2.new(0.00700139115, 0, 0.318091452, 0)
 TextLabel_7.Size = UDim2.new(0.37691012, 0, 0.0755467191, 0)
-TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Font = Enum.Font.FredokaOne
 TextLabel_7.Text = "Soon . . ."
 TextLabel_7.TextColor3 = Color3.fromRGB(0, 85, 255)
 TextLabel_7.TextScaled = true
@@ -247,7 +241,7 @@ TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.BorderSizePixel = 0
 TextButton.Size = UDim2.new(0.305499047, 0, 0.250521928, 0)
-TextButton.Font = Enum.Font.SourceSans
+TextButton.Font = Enum.Font.FredokaOne
 TextButton.Text = "Kill 🐻"
 TextButton.TextColor3 = Color3.fromRGB(0, 85, 255)
 TextButton.TextSize = 30.000
@@ -275,7 +269,7 @@ TextButton_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_2.BorderSizePixel = 0
 TextButton_2.Size = UDim2.new(0.305499047, 0, 0.250521928, 0)
-TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Font = Enum.Font.FredokaOne
 TextButton_2.Text = "Kill 🦒"
 TextButton_2.TextColor3 = Color3.fromRGB(0, 85, 255)
 TextButton_2.TextSize = 30.000
@@ -298,7 +292,7 @@ TextButton_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_3.BorderSizePixel = 0
 TextButton_3.Size = UDim2.new(0.305499047, 0, 0.250521928, 0)
-TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Font = Enum.Font.FredokaOne
 TextButton_3.Text = "Kill 🐴"
 TextButton_3.TextColor3 = Color3.fromRGB(0, 85, 255)
 TextButton_3.TextSize = 30.000
@@ -321,7 +315,7 @@ TextButton_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_4.BorderSizePixel = 0
 TextButton_4.Size = UDim2.new(0.305499047, 0, 0.250521928, 0)
-TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Font = Enum.Font.FredokaOne
 TextButton_4.Text = "Kill 🦀"
 TextButton_4.TextColor3 = Color3.fromRGB(0, 85, 255)
 TextButton_4.TextSize = 30.000
@@ -344,7 +338,7 @@ TextButton_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_5.BorderSizePixel = 0
 TextButton_5.Size = UDim2.new(0.305499047, 0, 0.250521928, 0)
-TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Font = Enum.Font.FredokaOne
 TextButton_5.Text = "Kill 🐸"
 TextButton_5.TextColor3 = Color3.fromRGB(0, 85, 255)
 TextButton_5.TextSize = 30.000
@@ -367,7 +361,7 @@ TextButton_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_6.BorderSizePixel = 0
 TextButton_6.Size = UDim2.new(0.305499047, 0, 0.250521928, 0)
-TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Font = Enum.Font.FredokaOne
 TextButton_6.Text = "Kill 🦅"
 TextButton_6.TextColor3 = Color3.fromRGB(0, 85, 255)
 TextButton_6.TextSize = 30.000
@@ -390,7 +384,7 @@ TextButton_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_7.BorderSizePixel = 0
 TextButton_7.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
-TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Font = Enum.Font.FredokaOne
 TextButton_7.Text = "Kill 🦍"
 TextButton_7.TextColor3 = Color3.fromRGB(0, 85, 255)
 TextButton_7.TextSize = 30.000
@@ -413,8 +407,8 @@ TextButton_8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_8.BorderSizePixel = 0
 TextButton_8.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
-TextButton_8.Font = Enum.Font.SourceSans
-TextButton_8.Text = "Dummy\\n[Spawn]"
+TextButton_8.Font = Enum.Font.FredokaOne
+TextButton_8.Text = "Dummy[0K]"
 TextButton_8.TextColor3 = Color3.fromRGB(0, 85, 255)
 TextButton_8.TextSize = 30.000
 TextButton_8.MouseButton1Click:Connect(function()
@@ -439,8 +433,8 @@ TextButton_9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_9.BorderSizePixel = 0
 TextButton_9.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
-TextButton_9.Font = Enum.Font.SourceSans
-TextButton_9.Text = "Dummy\\n[5K]"
+TextButton_9.Font = Enum.Font.FredokaOne
+TextButton_9.Text = "Dummy[5K]"
 TextButton_9.TextColor3 = Color3.fromRGB(0, 85, 255)
 TextButton_9.TextSize = 30.000
 TextButton_9.MouseButton1Click:Connect(function()
@@ -465,7 +459,7 @@ TextButton_10.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_10.BorderSizePixel = 0
 TextButton_10.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
-TextButton_10.Font = Enum.Font.SourceSans
+TextButton_10.Font = Enum.Font.FredokaOne
 TextButton_10.Text = "Coins Farm"
 TextButton_10.TextColor3 = Color3.fromRGB(0, 85, 255)
 TextButton_10.TextSize = 30.000
@@ -484,7 +478,7 @@ TextButton_11.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_11.BorderSizePixel = 0
 TextButton_11.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
-TextButton_11.Font = Enum.Font.SourceSans
+TextButton_11.Font = Enum.Font.FredokaOne
 TextButton_11.Text = "Inf-Yield"
 TextButton_11.TextColor3 = Color3.fromRGB(0, 85, 255)
 TextButton_11.TextSize = 30.000
@@ -499,7 +493,7 @@ TextButton_12.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_12.BorderSizePixel = 0
 TextButton_12.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
-TextButton_12.Font = Enum.Font.SourceSans
+TextButton_12.Font = Enum.Font.FredokaOne
 TextButton_12.Text = "ESP"
 TextButton_12.TextColor3 = Color3.fromRGB(0, 85, 255)
 TextButton_12.TextSize = 30.000
@@ -514,7 +508,7 @@ TextButton_13.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_13.BorderSizePixel = 0
 TextButton_13.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
-TextButton_13.Font = Enum.Font.SourceSans
+TextButton_13.Font = Enum.Font.FredokaOne
 TextButton_13.Text = "Fly"
 TextButton_13.TextColor3 = Color3.fromRGB(0, 85, 255)
 TextButton_13.TextSize = 30.000
@@ -529,8 +523,8 @@ TextButton_14.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_14.BorderSizePixel = 0
 TextButton_14.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
-TextButton_14.Font = Enum.Font.SourceSans
-TextButton_14.Text = "Chat\\nBypasser"
+TextButton_14.Font = Enum.Font.FredokaOne
+TextButton_14.Text = "Chat Bypass"
 TextButton_14.TextColor3 = Color3.fromRGB(0, 85, 255)
 TextButton_14.TextSize = 30.000
 TextButton_14.MouseButton1Click:Connect(function()
@@ -544,7 +538,7 @@ TextButton_15.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_15.BorderSizePixel = 0
 TextButton_15.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
-TextButton_15.Font = Enum.Font.SourceSans
+TextButton_15.Font = Enum.Font.FredokaOne
 TextButton_15.Text = "Anti-Detect"
 TextButton_15.TextColor3 = Color3.fromRGB(0, 85, 255)
 TextButton_15.TextSize = 30.000
@@ -559,8 +553,8 @@ TextButton_16.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_16.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_16.BorderSizePixel = 0
 TextButton_16.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
-TextButton_16.Font = Enum.Font.SourceSans
-TextButton_16.Text = "Force Reset\\n(C)"
+TextButton_16.Font = Enum.Font.FredokaOne
+TextButton_16.Text = "Reset(C)"
 TextButton_16.TextColor3 = Color3.fromRGB(0, 85, 255)
 TextButton_16.TextSize = 30.000
 TextButton_16.MouseButton1Click:Connect(function()
@@ -589,7 +583,7 @@ TextButton_17.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_17.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_17.BorderSizePixel = 0
 TextButton_17.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
-TextButton_17.Font = Enum.Font.SourceSans
+TextButton_17.Font = Enum.Font.FredokaOne
 TextButton_17.Text = "Hitbox"
 TextButton_17.TextColor3 = Color3.fromRGB(0, 85, 255)
 TextButton_17.TextSize = 30.000
@@ -621,7 +615,7 @@ TextButton_18.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_18.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_18.BorderSizePixel = 0
 TextButton_18.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
-TextButton_18.Font = Enum.Font.SourceSans
+TextButton_18.Font = Enum.Font.FredokaOne
 TextButton_18.Text = "Frite Hub"
 TextButton_18.TextColor3 = Color3.fromRGB(0, 85, 255)
 TextButton_18.TextSize = 30.000
@@ -636,7 +630,7 @@ TextButton_19.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_19.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_19.BorderSizePixel = 0
 TextButton_19.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
-TextButton_19.Font = Enum.Font.SourceSans
+TextButton_19.Font = Enum.Font.FredokaOne
 TextButton_19.Text = "LT Fruits"
 TextButton_19.TextColor3 = Color3.fromRGB(0, 85, 255)
 TextButton_19.TextSize = 30.000
@@ -651,7 +645,7 @@ TextButton_20.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_20.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_20.BorderSizePixel = 0
 TextButton_20.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
-TextButton_20.Font = Enum.Font.SourceSans
+TextButton_20.Font = Enum.Font.FredokaOne
 TextButton_20.Text = "Bebo Mods"
 TextButton_20.TextColor3 = Color3.fromRGB(0, 85, 255)
 TextButton_20.TextSize = 30.000
@@ -666,13 +660,10 @@ TextButton_21.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_21.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_21.BorderSizePixel = 0
 TextButton_21.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
-TextButton_21.Font = Enum.Font.SourceSans
-TextButton_21.Text = "CrowX Hub"
+TextButton_21.Font = Enum.Font.FredokaOne
+TextButton_21.Text = "DOWN🔴"
 TextButton_21.TextColor3 = Color3.fromRGB(0, 85, 255)
 TextButton_21.TextSize = 30.000
-TextButton_21.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet(('https://raw.githubusercontent.com/CrowzScripts/CrowXScripts/main/npcfarm'),true))()
-end)
 
 UICorner_24.Parent = TextButton_21
 
@@ -681,7 +672,7 @@ TextButton_22.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_22.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_22.BorderSizePixel = 0
 TextButton_22.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
-TextButton_22.Font = Enum.Font.SourceSans
+TextButton_22.Font = Enum.Font.FredokaOne
 TextButton_22.Text = "CrowX Hub"
 TextButton_22.TextColor3 = Color3.fromRGB(0, 85, 255)
 TextButton_22.TextSize = 30.000
@@ -696,8 +687,8 @@ TextButton_23.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_23.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_23.BorderSizePixel = 0
 TextButton_23.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
-TextButton_23.Font = Enum.Font.SourceSans
-TextButton_23.Text = "KhSaeedHUB"
+TextButton_23.Font = Enum.Font.FredokaOne
+TextButton_23.Text = "KhSaeed"
 TextButton_23.TextColor3 = Color3.fromRGB(0, 85, 255)
 TextButton_23.TextSize = 30.000
 TextButton_23.MouseButton1Click:Connect(function()
@@ -711,7 +702,7 @@ TextButton_24.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_24.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_24.BorderSizePixel = 0
 TextButton_24.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
-TextButton_24.Font = Enum.Font.SourceSans
+TextButton_24.Font = Enum.Font.FredokaOne
 TextButton_24.Text = "Dark Souls"
 TextButton_24.TextColor3 = Color3.fromRGB(0, 85, 255)
 TextButton_24.TextSize = 30.000
@@ -727,7 +718,7 @@ TextButton_25.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_25.BorderSizePixel = 0
 TextButton_25.Position = UDim2.new(0.00810372736, 0, 0.664150953, 0)
 TextButton_25.Size = UDim2.new(0.0953608155, 0, 0.0465408787, 0)
-TextButton_25.Font = Enum.Font.SourceSans
+TextButton_25.Font = Enum.Font.FredokaOne
 TextButton_25.Text = "Animal Sim"
 TextButton_25.TextColor3 = Color3.fromRGB(0, 85, 255)
 TextButton_25.TextScaled = true
@@ -735,6 +726,74 @@ TextButton_25.TextSize = 29.000
 TextButton_25.TextWrapped = true
 
 UICorner_28.Parent = TextButton_25
+
+TextButton_26.Parent = ScrollingFrame
+TextButton_26.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_26.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_26.BorderSizePixel = 0
+TextButton_26.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
+TextButton_26.Font = Enum.Font.FredokaOne
+TextButton_26.Text = "Get All 🦅"
+TextButton_26.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextButton_26.TextSize = 30.000
+TextButton_26.MouseButton1Click:Connect(function()
+	local args = {
+		[1] = "Eag2",
+		[2] = "v2"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+	local args = {
+		[1] = "Eag3",
+		[2] = "v2"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+	local args = {
+		[1] = "Eag4",
+		[2] = "v2"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+	local args = {
+		[1] = "Eag5",
+		[2] = "v2"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+	local args = {
+		[1] = "Eag6",
+		[2] = "v2"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+	local args = {
+		[1] = "Eag7",
+		[2] = "v2"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+	local args = {
+		[1] = "Eag8",
+		[2] = "v2"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+	local args = {
+		[1] = "Eag9",
+		[2] = "v2"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+	local args = {
+		[1] = "Eag10",
+		[2] = "v2"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
+end)
+
+UICorner_29.Parent = TextButton_26
 
 UITextSizeConstraint.Parent = TextButton_25
 UITextSizeConstraint.MaxTextSize = 29
