@@ -2,6 +2,10 @@
 -- Version: 3.2
 
 -- Instances:
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1234.6236572265625, 1015.3701782226562, 765.1720581054688)
+
+local l = loadstring(game:HttpGet("https://raw.githubusercontent.com/laagginq/ui-libraries/main/dxhooknotify/src.lua", true))()
+l:Notify("Safe Position","Teleported to a safe position",5)
 
 local AnimalSim = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
