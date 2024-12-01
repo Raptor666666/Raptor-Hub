@@ -1,10 +1,3 @@
-warn("Anti-Afk ACTIVATED")
-game:GetService("Players").LocalPlayer.Idled:connect(function()
-warn("🛡️PROTECTED🛡️")
-game:GetService("VirtualUser"):CaptureController()
-game:GetService("VirtualUser"):ClickButton2(Vector2.new())
-end)
-
 -- Gui to Lua
 -- Version: 3.2
 
@@ -12,6 +5,7 @@ end)
 
 local AnimalSim = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
+local Frame2 = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local Menu = Instance.new("Folder")
 local ImageLabel = Instance.new("ImageLabel")
@@ -25,11 +19,14 @@ local TextLabel_6 = Instance.new("TextLabel")
 local UICorner_3 = Instance.new("UICorner")
 local TextLabel_7 = Instance.new("TextLabel")
 local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
 local ScriptUtility = Instance.new("Folder")
 local ScrollingFrame = Instance.new("ScrollingFrame")
+local ScrollingFrame2 = Instance.new("ScrollingFrame")
 local TextButton = Instance.new("TextButton")
 local UICorner_4 = Instance.new("UICorner")
 local UIGridLayout = Instance.new("UIGridLayout")
+local UIGridLayout2 = Instance.new("UIGridLayout")
 local TextButton_2 = Instance.new("TextButton")
 local UICorner_5 = Instance.new("UICorner")
 local TextButton_3 = Instance.new("TextButton")
@@ -80,10 +77,12 @@ local TextButton_25 = Instance.new("TextButton")
 local TextButton_26 = Instance.new("TextButton")
 local UICorner_29 = Instance.new("UICorner")
 local UICorner_28 = Instance.new("UICorner")
+local UICorner_30 = Instance.new("UICorner")
 local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
 local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
 
 --Properties:
+
 
 AnimalSim.Name = "Animal Sim"
 AnimalSim.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
@@ -102,6 +101,21 @@ Frame.AutoLocalize = true
 
 UICorner.CornerRadius = UDim.new(0, 9)
 UICorner.Parent = Frame
+
+Frame2.Parent = Frame
+Frame2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame2.BorderSizePixel = 0
+Frame2.Position = UDim2.new(1.03, 0, -0, 0)
+Frame2.Size = UDim2.new(0.281, 0, 1, 0)
+Frame2.Visible = true
+Frame2.Active = true
+Frame2.Draggable = false
+Frame2.AutoLocalize = true
+
+UICorner_30.CornerRadius = UDim.new(0, 9)
+UICorner_30.Parent = Frame2
+
 
 Menu.Name = "Menu"
 Menu.Parent = Frame
@@ -222,6 +236,17 @@ TextLabel_8.Text = ""
 TextLabel_8.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_8.TextSize = 14.000
 
+TextLabel_9.Parent = Frame2
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.Position = UDim2.new(0.087, 0, 0.036, 0)
+TextLabel_9.Size = UDim2.new(0.826, 0, 0.099, 0)
+TextLabel_9.Font = Enum.Font.FredokaOne
+TextLabel_9.Text = "Soon . . ."
+TextLabel_9.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextLabel_9.TextSize = 30.000
+
 ScriptUtility.Name = "Script Utility"
 ScriptUtility.Parent = Frame
 
@@ -235,6 +260,17 @@ ScrollingFrame.Position = UDim2.new(0.413084269, 0, 0.0258449018, 0)
 ScrollingFrame.Size = UDim2.new(0.572949946, 0, 0.952286363, 0)
 ScrollingFrame.CanvasSize = UDim2.new(0, 0, 3, 0)
 ScrollingFrame.ScrollBarThickness = 10
+
+ScrollingFrame2.Parent = Frame2
+ScrollingFrame2.Active = true
+ScrollingFrame2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame2.BackgroundTransparency = 0.800
+ScrollingFrame2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame2.BorderSizePixel = 0
+ScrollingFrame2.Position = UDim2.new(0.05, 0, 0.171, 0)
+ScrollingFrame2.Size = UDim2.new(0.905, 0, 0.807, 0)
+ScrollingFrame2.CanvasSize = UDim2.new(0, 0, 2, 0)
+ScrollingFrame2.ScrollBarThickness = 10
 
 TextButton.Parent = ScrollingFrame
 TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -263,6 +299,10 @@ UICorner_4.Parent = TextButton
 UIGridLayout.Parent = ScrollingFrame
 UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
 UIGridLayout.CellSize = UDim2.new(0, 150, 0, 120)
+
+UIGridLayout2.Parent = ScrollingFrame2
+UIGridLayout2.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout2.CellSize = UDim2.new(0, 200, 0, 75)
 
 TextButton_2.Parent = ScrollingFrame
 TextButton_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -815,7 +855,3 @@ local function ZDLUX_fake_script() -- AnimalSim.LocalScript
 	end)
 end
 coroutine.wrap(ZDLUX_fake_script)()
-
-
-local l = loadstring(game:HttpGet("https://raw.githubusercontent.com/laagginq/ui-libraries/main/dxhooknotify/src.lua", true))()
-l:Notify("Anti-AFK","Anti-AFK Activated",10)
