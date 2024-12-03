@@ -2,7 +2,7 @@
 -- Version: 3.2
 
 -- Instances:
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1234.6236572265625, 1015.3701782226562, 765.1720581054688)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-275.8011779785156, 686.1178588867188, 556.7342529296875)
 
 local l = loadstring(game:HttpGet("https://raw.githubusercontent.com/laagginq/ui-libraries/main/dxhooknotify/src.lua", true))()
 l:Notify("Safe Position","Teleported to a safe position",5)
@@ -79,18 +79,21 @@ local TextButton_24 = Instance.new("TextButton")
 local UICorner_27 = Instance.new("UICorner")
 local TextButton_25 = Instance.new("TextButton")
 local TextButton_26 = Instance.new("TextButton")
+local TextButton_27 = Instance.new("TextButton")
+local TextButton_28 = Instance.new("TextButton")
 local UICorner_29 = Instance.new("UICorner")
 local UICorner_28 = Instance.new("UICorner")
 local UICorner_30 = Instance.new("UICorner")
+local UICorner_31 = Instance.new("UICorner")
 local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
 local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
 
 --Properties:
 
-
 AnimalSim.Name = "Animal Sim"
 AnimalSim.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 AnimalSim.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+AnimalSim.Parent = game.CoreGui
 
 Frame.Parent = AnimalSim
 Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -206,11 +209,11 @@ TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_6.BorderSizePixel = 0
 TextLabel_6.Position = UDim2.new(0.00816829503, 0, 0.393638164, 0)
 TextLabel_6.Size = UDim2.new(0.37691012, 0, 0.210735589, 0)
-TextLabel_6.Font = Enum.Font.SourceSans
-TextLabel_6.Text = ""
+TextLabel_6.Font = Enum.Font.FredokaOne
+TextLabel_6.Text = "Script.Parent.Console:function(Value) : Script fully initialized! ✅"
 TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_6.TextScaled = true
-TextLabel_6.TextSize = 14.000
+TextLabel_6.TextSize = 30.000
 TextLabel_6.TextWrapped = true
 
 UICorner_3.Parent = TextLabel_6
@@ -223,7 +226,7 @@ TextLabel_7.BorderSizePixel = 0
 TextLabel_7.Position = UDim2.new(0.00700139115, 0, 0.318091452, 0)
 TextLabel_7.Size = UDim2.new(0.37691012, 0, 0.0755467191, 0)
 TextLabel_7.Font = Enum.Font.FredokaOne
-TextLabel_7.Text = "Soon . . ."
+TextLabel_7.Text = "Terminal"
 TextLabel_7.TextColor3 = Color3.fromRGB(0, 85, 255)
 TextLabel_7.TextScaled = true
 TextLabel_7.TextSize = 14.000
@@ -247,7 +250,7 @@ TextLabel_9.BorderSizePixel = 0
 TextLabel_9.Position = UDim2.new(0.087, 0, 0.036, 0)
 TextLabel_9.Size = UDim2.new(0.826, 0, 0.099, 0)
 TextLabel_9.Font = Enum.Font.FredokaOne
-TextLabel_9.Text = "Soon . . ."
+TextLabel_9.Text = "Misc"
 TextLabel_9.TextColor3 = Color3.fromRGB(0, 85, 255)
 TextLabel_9.TextSize = 30.000
 
@@ -517,7 +520,7 @@ end)
 
 UICorner_13.Parent = TextButton_10
 
-TextButton_11.Parent = ScrollingFrame
+TextButton_11.Parent = ScrollingFrame2
 TextButton_11.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_11.BorderSizePixel = 0
@@ -532,7 +535,7 @@ end)
 
 UICorner_14.Parent = TextButton_11
 
-TextButton_12.Parent = ScrollingFrame
+TextButton_12.Parent = ScrollingFrame2
 TextButton_12.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_12.BorderSizePixel = 0
@@ -547,7 +550,7 @@ end)
 
 UICorner_15.Parent = TextButton_12
 
-TextButton_13.Parent = ScrollingFrame
+TextButton_13.Parent = ScrollingFrame2
 TextButton_13.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_13.BorderSizePixel = 0
@@ -562,7 +565,7 @@ end)
 
 UICorner_16.Parent = TextButton_13
 
-TextButton_14.Parent = ScrollingFrame
+TextButton_14.Parent = ScrollingFrame2
 TextButton_14.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_14.BorderSizePixel = 0
@@ -577,7 +580,7 @@ end)
 
 UICorner_17.Parent = TextButton_14
 
-TextButton_15.Parent = ScrollingFrame
+TextButton_15.Parent = ScrollingFrame2
 TextButton_15.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_15.BorderSizePixel = 0
@@ -592,7 +595,7 @@ end)
 
 UICorner_18.Parent = TextButton_15
 
-TextButton_16.Parent = ScrollingFrame
+TextButton_16.Parent = ScrollingFrame2
 TextButton_16.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_16.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_16.BorderSizePixel = 0
@@ -622,7 +625,7 @@ end)
 
 UICorner_19.Parent = TextButton_16
 
-TextButton_17.Parent = ScrollingFrame
+TextButton_17.Parent = ScrollingFrame2
 TextButton_17.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_17.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_17.BorderSizePixel = 0
@@ -760,13 +763,13 @@ TextButton_25.Parent = AnimalSim
 TextButton_25.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_25.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_25.BorderSizePixel = 0
-TextButton_25.Position = UDim2.new(0.00810372736, 0, 0.664150953, 0)
-TextButton_25.Size = UDim2.new(0.0953608155, 0, 0.0465408787, 0)
+TextButton_25.Position = UDim2.new(-0, 0, 0.626, 0)
+TextButton_25.Size = UDim2.new(0.131, 0, 0.069, 0)
 TextButton_25.Font = Enum.Font.FredokaOne
-TextButton_25.Text = "Animal Sim"
+TextButton_25.Text = "Animal Sim Premium"
 TextButton_25.TextColor3 = Color3.fromRGB(0, 85, 255)
 TextButton_25.TextScaled = true
-TextButton_25.TextSize = 29.000
+TextButton_25.TextSize = 30.000
 TextButton_25.TextWrapped = true
 
 UICorner_28.Parent = TextButton_25
@@ -837,7 +840,38 @@ TextButton_26.MouseButton1Click:Connect(function()
 	game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SkinClickEvent"):FireServer(unpack(args))
 end)
 
+TextButton_27.Parent = Frame
+TextButton_27.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_27.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_27.BorderSizePixel = 0
+TextButton_27.Position = UDim2.new(0.901, 0, 1.076, 0)
+TextButton_27.Size = UDim2.new(0.244, 0, 0.119, 0)
+TextButton_27.Font = Enum.Font.FredokaOne
+TextButton_27.Text = "Made by sdiss (Discord)"
+TextButton_27.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextButton_27.TextScaled = false
+TextButton_27.TextSize = 20.000
+TextButton_27.TextWrapped = true
+
+TextButton_28.Parent = ScrollingFrame
+TextButton_28.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_28.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_28.BorderSizePixel = 0
+TextButton_28.Position = UDim2.new(0.901, 0, 1.076, 0)
+TextButton_28.Size = UDim2.new(0.244, 0, 0.119, 0)
+TextButton_28.Font = Enum.Font.FredokaOne
+TextButton_28.Text = "Heimdalls"
+TextButton_28.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextButton_28.TextScaled = false
+TextButton_28.TextSize = 30.000
+TextButton_28.TextWrapped = true
+TextButton_28.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/EsfFXNZD"))()
+end)
+
 UICorner_29.Parent = TextButton_26
+
+UICorner_31.Parent = TextButton_28
 
 UITextSizeConstraint.Parent = TextButton_25
 UITextSizeConstraint.MaxTextSize = 29
