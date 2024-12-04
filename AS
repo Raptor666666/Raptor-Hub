@@ -19,6 +19,7 @@ local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
 local Frame = Instance.new("Frame")
 local Frame2 = Instance.new("Frame")
+local Frame3 = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local Menu = Instance.new("Folder")
 local ImageLabel = Instance.new("ImageLabel")
@@ -36,6 +37,7 @@ local TextLabel_9 = Instance.new("TextLabel")
 local ScriptUtility = Instance.new("Folder")
 local ScrollingFrame = Instance.new("ScrollingFrame")
 local ScrollingFrame2 = Instance.new("ScrollingFrame")
+local ScrollingFrame3 = Instance.new("ScrollingFrame")
 local TextButton = Instance.new("TextButton")
 local UICorner_4 = Instance.new("UICorner")
 local UIGridLayout = Instance.new("UIGridLayout")
@@ -94,6 +96,7 @@ local UICorner_29 = Instance.new("UICorner")
 local UICorner_28 = Instance.new("UICorner")
 local UICorner_30 = Instance.new("UICorner")
 local UICorner_31 = Instance.new("UICorner")
+local UICorner_32 = Instance.new("UICorner")
 local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
 local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
 
@@ -131,6 +134,20 @@ Frame2.AutoLocalize = true
 
 UICorner_30.CornerRadius = UDim.new(0, 9)
 UICorner_30.Parent = Frame2
+
+Frame3.Parent = Frame
+Frame3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame3.BorderSizePixel = 0
+Frame3.Position = UDim2.new(-0, 0, 1.038, 0)
+Frame3.Size = UDim2.new(1, 0, 0.199, 0)
+Frame3.Visible = true
+Frame3.Active = true
+Frame3.Draggable = false
+Frame3.AutoLocalize = true
+
+UICorner_32.CornerRadius = UDim.new(0, 9)
+UICorner_32.Parent = Frame3
 
 
 Menu.Name = "Menu"
@@ -287,6 +304,17 @@ ScrollingFrame2.Position = UDim2.new(0.05, 0, 0.171, 0)
 ScrollingFrame2.Size = UDim2.new(0.905, 0, 0.807, 0)
 ScrollingFrame2.CanvasSize = UDim2.new(0, 0, 2, 0)
 ScrollingFrame2.ScrollBarThickness = 10
+
+ScrollingFrame3.Parent = Frame3
+ScrollingFrame3.Active = true
+ScrollingFrame3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame3.BackgroundTransparency = 0.800
+ScrollingFrame3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame3.BorderSizePixel = 0
+ScrollingFrame3.Position = UDim2.new(-0, 0, -0.002, 0)
+ScrollingFrame3.Size = UDim2.new(1, 0, 1.002, 0)
+ScrollingFrame3.CanvasSize = UDim2.new(0, 0, 2, 0)
+ScrollingFrame3.ScrollBarThickness = 10
 
 TextButton.Parent = ScrollingFrame
 TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
