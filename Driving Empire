@@ -1,4 +1,17 @@
- --Vars
+game.StarterGui:SetCore("SendNotification", {
+Title = "Loaded success enjoy!",
+Text = "🤗",
+Duration = 10,
+})
+
+game.StarterGui:SetCore("SendNotification", {
+Title = "Last update 24/03/25!",
+Text = "",
+Duration = 10,
+})
+
+
+--Vars
 
         LocalPlayer = game:GetService("Players").LocalPlayer
 
