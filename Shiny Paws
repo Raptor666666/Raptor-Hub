@@ -1,0 +1,314 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+getgenv().SecureMode = true
+--
+local Window = Rayfield:CreateWindow({
+    Name = "[🌊] Shiny Paws! 🐾",
+    LoadingTitle = "RaptorX Premium",
+    LoadingSubtitle = "By Raptor",
+    Theme = "Dark",
+    ConfigurationSaving = {
+       Enabled = true,
+       FolderName = nil,
+       FileName = "Big Hub"
+    },
+    Discord = {
+       Enabled = false,
+       Invite = "",
+       RememberJoins = true
+    },
+    KeySystem = false,
+    KeySettings = {
+       Title = "Raptor Hub",
+       Subtitle = "Key System",
+       Note = "",
+       FileName = "RaptorKey",
+       SaveKey = true,
+       GrabKeyFromSite = false,
+       Key = ""
+    }
+})
+--
+local Tab = Window:CreateTab("Main", 11570802781)
+local Section = Tab:CreateSection("Main")
+local Button = Tab:CreateButton({
+    Name = "Autocollect Gems/Coins/Eggs",
+    Callback = function(Val)
+        local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local folder = game.Workspace.Orbs
+
+		local function bringAllPartsInFolder()
+    	while true do
+        for _, part in pairs(folder:GetChildren()) do
+            if part:IsA("Part") then
+                part.CFrame = character.HumanoidRootPart.CFrame
+            end
+        end
+        wait(0.0001)
+    end
+end
+bringAllPartsInFolder()
+    end,
+})
+local Button = Tab:CreateButton({
+    Name = "AutoClaim Lollipop Chest",
+    Callback = function(Val)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(603.4956665039062, -144.5060577392578, 639.0001220703125)
+        wait(1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1929.22766, -129.207672, 487.0849, 0.499959469, -0, -0.866048813, 0, 1, -0, 0.866048813, 0, 0.499959469)
+    end,
+})
+local Button = Tab:CreateButton({
+    Name = "AutoClaim Group Chest",
+    Callback = function(Val)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(603.4956665039062, -144.5060577392578, 639.0001220703125)
+        wait(1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(651.33429, -133.507721, 554.820129, -0.342042685, 0, 0.939684391, 0, 1, 0, -0.939684391, 0, -0.342042685)
+    end,
+})
+local Button = Tab:CreateButton({
+    Name = "AutoClaim Daily Chest",
+    Callback = function(Val)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(603.4956665039062, -144.5060577392578, 639.0001220703125)
+        wait(1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(719.715393, -130.357758, 818.149414)
+    end,
+})
+local Button = Tab:CreateButton({
+    Name = "AutoClaim Fossil Chest",
+    Callback = function(Val)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(603.4956665039062, -144.5060577392578, 639.0001220703125)
+        wait(1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1960.691284, -122.511955, -248.528198)
+    end,
+})
+local Button = Tab:CreateButton({
+    Name = "AutoClaim Candy Reward",
+    Callback = function(Val)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(603.4956665039062, -144.5060577392578, 639.0001220703125)
+        wait(1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2141.19287, -131.064453, 479.73642, -0.978144407, 0, -0.207926437, 0, 1, 0, 0.207926437, 0, -0.978144407)
+    end,
+})
+local Tab2 = Window:CreateTab("Teleport", 12941020168)
+local Section = Tab2:CreateSection("Upgrade")
+local Button = Tab2:CreateButton({
+    Name = "Teleport Gems Shop",
+    Callback = function(Val)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(603.4956665039062, -144.5060577392578, 639.0001220703125)
+        wait(1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1289.60608, -127.491196, 690.200317, 0.819155693, 0, 0.573571265, 0, 1, 0, -0.573571265, 0, 0.819155693)
+    end,
+})
+local Button = Tab2:CreateButton({
+    Name = "Teleport Aqua Shop",
+    Callback = function(Val)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(603.4956665039062, -144.5060577392578, 639.0001220703125)
+        wait(1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1782.86218, -123.793831, 1043.46521, 0.642353415, 0.0381859429, 0.765456676, -0.0331539325, 0.999207556, -0.0220249481, -0.765691161, -0.0112300972, 0.643110394)
+    end,
+})
+local Button = Tab2:CreateButton({
+    Name = "Teleport Tickets Shop",
+    Callback = function(Val)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(603.4956665039062, -144.5060577392578, 639.0001220703125)
+        wait(1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(864.964539, -154.730408, 590.805969, 5.9068203e-05, -0.825119674, -0.564958096, -1, -2.31266022e-05, -7.10189342e-05, 4.56273556e-05, 0.564958096, -0.825119734)
+    end,
+})
+local Button = Tab2:CreateButton({
+    Name = "Teleport Magic Three",
+    Callback = function(Val)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(603.4956665039062, -144.5060577392578, 639.0001220703125)
+        wait(1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1073.16736, -124.997696, 551.364685, -0.984812617, 0, 0.173621148, 0, 1, 0, -0.173621148, 0, -0.984812617)
+    end,
+})
+local Button = Tab2:CreateButton({
+    Name = "Teleport Christmas Three",
+    Callback = function(Val)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(603.4956665039062, -144.5060577392578, 639.0001220703125)
+        wait(1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1186.871094, -134.610626, 335.878479)
+    end,
+})
+local Button = Tab2:CreateButton({
+    Name = "Teleport Cristal Upgrades",
+    Callback = function(Val)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(603.4956665039062, -144.5060577392578, 639.0001220703125)
+        wait(1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1207.19312, -154.491959, -93.4335175, 2.08616257e-05, 0.476161391, -0.879357874, -1, -4.16040421e-05, -4.6223402e-05, -5.86509705e-05, 0.879357815, 0.47616142)
+    end,
+})
+local Button = Tab2:CreateButton({
+    Name = "Teleport Rebirth Shop",
+    Callback = function(Val)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(603.4956665039062, -144.5060577392578, 639.0001220703125)
+        wait(1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1238.75854, -153.722107, -307.107178, 5.9068203e-05, -0.825119674, -0.564958096, -1, -2.31266022e-05, -7.10189342e-05, 4.56273556e-05, 0.564958096, -0.825119734)
+    end,
+})
+local Button = Tab2:CreateButton({
+    Name = "Teleport Shiny Machine",
+    Callback = function(Val)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(603.4956665039062, -144.5060577392578, 639.0001220703125)
+        wait(1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2066.6958, -154.032303, 273.959198, 5.9068203e-05, -0.825119674, -0.564958096, -1, -2.31266022e-05, -7.10189342e-05, 4.56273556e-05, 0.564958096, -0.825119734)
+    end,
+})
+local Section = Tab2:CreateSection("Fastest Areas Teleport")
+local Button = Tab2:CreateButton({
+    Name = "Teleport Area 0",
+    Callback = function(Val)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(603.4956665039062, -144.5060577392578, 639.0001220703125)
+        wait(0.25)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(696.1729125976562, -149.9326934814453, 640.0813598632812)
+    end,
+})
+local Button = Tab2:CreateButton({
+    Name = "Teleport Area 1",
+    Callback = function(Val)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(603.4956665039062, -144.5060577392578, 639.0001220703125)
+        wait(0.25)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(943.1729125976562, -150.0866241455078, 640.0813598632812)
+    end,
+})
+local Button = Tab2:CreateButton({
+    Name = "Teleport Area 2",
+    Callback = function(Val)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(603.4956665039062, -144.5060577392578, 639.0001220703125)
+        wait(0.25)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1166.1728515625, -150.0866241455078, 640.0813598632812)
+    end,
+})
+local Button = Tab2:CreateButton({
+    Name = "Teleport Area 3",
+    Callback = function(Val)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(603.4956665039062, -144.5060577392578, 639.0001220703125)
+        wait(0.25)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1238.1728515625, -150.03085327148438, 383.081298828125)
+    end,
+})
+local Button = Tab2:CreateButton({
+    Name = "Teleport Area 4",
+    Callback = function(Val)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(603.4956665039062, -144.5060577392578, 639.0001220703125)
+        wait(0.25)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1240.1728515625, -150.03085327148438, 100.081298828125)
+    end,
+})
+local Button = Tab2:CreateButton({
+    Name = "Teleport Area 5",
+    Callback = function(Val)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(603.4956665039062, -144.5060577392578, 639.0001220703125)
+        wait(0.25)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1240.1728515625, -150.03085327148438, -295.918701171875)
+    end,
+})
+local Button = Tab2:CreateButton({
+    Name = "Teleport Area 6",
+    Callback = function(Val)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(603.4956665039062, -144.5060577392578, 639.0001220703125)
+        wait(0.25)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1557.1728515625, -150.39573669433594, -297.918701171875)
+    end,
+})
+local Button = Tab2:CreateButton({
+    Name = "Teleport Area 7",
+    Callback = function(Val)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(603.4956665039062, -144.5060577392578, 639.0001220703125)
+        wait(0.25)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1810.1728515625, -150.39573669433594, -298.918701171875)
+    end,
+})
+local Button = Tab2:CreateButton({
+    Name = "Teleport Area 8",
+    Callback = function(Val)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(603.4956665039062, -144.5060577392578, 639.0001220703125)
+        wait(0.25)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2048.1728515625, -150.39573669433594, -298.918701171875)
+    end,
+})
+local Button = Tab2:CreateButton({
+    Name = "Teleport Area 9",
+    Callback = function(Val)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(603.4956665039062, -144.5060577392578, 639.0001220703125)
+        wait(0.25)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2104.1728515625, -151.0391082763672, -155.91871643066406)
+    end,
+})
+local Button = Tab2:CreateButton({
+    Name = "Teleport Area 10",
+    Callback = function(Val)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(603.4956665039062, -144.5060577392578, 639.0001220703125)
+        wait(0.25)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2102.1728515625, -150.34103393554688, 142.08128356933594)
+    end,
+})
+local Button = Tab2:CreateButton({
+    Name = "Teleport Area 11",
+    Callback = function(Val)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(603.4956665039062, -144.5060577392578, 639.0001220703125)
+        wait(0.25)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2094.1728515625, -151.0391082763672, 362.081298828125)
+    end,
+})
+local Button = Tab2:CreateButton({
+    Name = "Teleport Area 12",
+    Callback = function(Val)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(603.4956665039062, -144.5060577392578, 639.0001220703125)
+        wait(0.25)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1993.1728515625, -150.0188751220703, 424.081298828125)
+    end,
+})
+local Button = Tab2:CreateButton({
+    Name = "Teleport Area 13",
+    Callback = function(Val)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(603.4956665039062, -144.5060577392578, 639.0001220703125)
+        wait(0.25)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1792.1728515625, -150.61781311035156, 424.081298828125)
+    end,
+})
+local Button = Tab2:CreateButton({
+    Name = "Teleport Area 14",
+    Callback = function(Val)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(603.4956665039062, -144.5060577392578, 639.0001220703125)
+        wait(0.25)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1727.1728515625, -151.0391082763672, 578.081298828125)
+    end,
+})
+local Button = Tab2:CreateButton({
+    Name = "Teleport Area 15",
+    Callback = function(Val)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(603.4956665039062, -144.5060577392578, 639.0001220703125)
+        wait(0.25)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1727.1728515625, -149.73544311523438, 746.081298828125)
+    end,
+})
+local Button = Tab2:CreateButton({
+    Name = "Teleport Area 16",
+    Callback = function(Val)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(603.4956665039062, -144.5060577392578, 639.0001220703125)
+        wait(0.25)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1727.1728515625, -148.07911682128906, 970.081298828125)
+    end,
+})
+local Button = Tab2:CreateButton({
+    Name = "Teleport Area 17",
+    Callback = function(Val)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(603.4956665039062, -144.5060577392578, 639.0001220703125)
+        wait(0.25)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1691.1728515625, -150.4151153564453, 1207.081298828125)
+    end,
+})
+
+
+
+local Tab3 = Window:CreateTab("Misc", 11570802781)
+local Section = Tab3:CreateSection("Misc")
+
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Last Script Update",
+    Text = "28/04/2025",
+    Duration = 15,
+})
