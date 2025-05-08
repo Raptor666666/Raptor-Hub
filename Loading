@@ -1,0 +1,170 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local TextLabel1 = Instance.new("TextLabel")
+local TextLabel2 = Instance.new("TextLabel")
+local TextLabel3 = Instance.new("TextLabel")
+local TextLabel4 = Instance.new("TextLabel")
+local TextLabel5 = Instance.new("TextLabel")
+local TextLabel6 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.19160305, 0, 0.206030145, 0)
+Frame.Size = UDim2.new(0, 808, 0, 467)
+Frame.Active = true
+Frame.Visible = true
+Frame.Draggable = false
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.282178223, 0, 0.197002143, 0)
+TextLabel.Size = UDim2.new(0, 352, 0, 76)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "Loading RaptorX . . ."
+TextLabel.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.356435657, 0, 0.704496801, 0)
+TextButton.Size = UDim2.new(0, 200, 0, 50)
+TextButton.Visible = false
+TextButton.Font = Enum.Font.SourceSansBold
+TextButton.Text = "Load"
+TextButton.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextButton.TextSize = 25.00
+TextButton.MouseButton1Click:Connect(function()
+	Frame:Destroy()
+end)
+
+wait(2)
+TextLabel1.Name = "TextLabel1"
+TextLabel1.Parent = Frame
+TextLabel1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel1.BorderSizePixel = 0
+TextLabel1.Position = UDim2.new(0.339108914, 0, 0.477516055, 0)
+TextLabel1.Size = UDim2.new(0, 260, 0, 60)
+TextLabel1.Font = Enum.Font.SourceSansBold
+TextLabel1.Text = "Loading UI . . ."
+TextLabel1.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextLabel1.TextScaled = true
+TextLabel1.TextSize = 14.000
+TextLabel1.TextWrapped = true
+
+
+TextLabel1.Visible = true
+wait(2)
+TextLabel1.Visible = false
+TextLabel2.Visible = true
+
+TextLabel2.Name = "TextLabel2"
+TextLabel2.Parent = Frame
+TextLabel2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel2.BorderSizePixel = 0
+TextLabel2.Position = UDim2.new(0.282178223, 0, 0.477516055, 0)
+TextLabel2.Size = UDim2.new(0, 323, 0, 60)
+TextLabel2.Font = Enum.Font.SourceSansBold
+TextLabel2.Text = "Loading Game Assets . . ."
+TextLabel2.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextLabel2.TextScaled = true
+TextLabel2.TextSize = 14.000
+TextLabel2.TextWrapped = true
+
+wait(2)
+TextLabel2.Visible = false
+TextLabel3.Visible = true
+
+TextLabel3.Name = "TextLabel3"
+TextLabel3.Parent = Frame
+TextLabel3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel3.BorderSizePixel = 0
+TextLabel3.Position = UDim2.new(0.282178223, 0, 0.477516055, 0)
+TextLabel3.Size = UDim2.new(0, 323, 0, 60)
+TextLabel3.Font = Enum.Font.SourceSansBold
+TextLabel3.Text = "Loading Functions . . ."
+TextLabel3.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextLabel3.TextScaled = true
+TextLabel3.TextSize = 14.000
+TextLabel3.TextWrapped = true
+
+wait(2)
+TextLabel3.Visible = false
+TextLabel4.Visible = true
+
+TextLabel4.Name = "TextLabel4"
+TextLabel4.Parent = Frame
+TextLabel4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel4.BorderSizePixel = 0
+TextLabel4.Position = UDim2.new(0.264851481, 0, 0.477516055, 0)
+TextLabel4.Size = UDim2.new(0, 337, 0, 60)
+TextLabel4.Font = Enum.Font.SourceSansBold
+TextLabel4.Text = "Loading RaptorX Premium . . ."
+TextLabel4.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextLabel4.TextScaled = true
+TextLabel4.TextSize = 14.000
+TextLabel4.TextWrapped = true
+
+wait(2)
+TextLabel4.Visible = false
+TextLabel5.Visible = true
+
+TextLabel5.Name = "TextLabel5"
+TextLabel5.Parent = Frame
+TextLabel5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel5.BorderSizePixel = 0
+TextLabel5.Position = UDim2.new(0.25, 0, 0.477516055, 0)
+TextLabel5.Size = UDim2.new(0, 378, 0, 60)
+TextLabel5.Font = Enum.Font.SourceSansBold
+TextLabel5.Text = "Updating UI To Version 11.5 . . ."
+TextLabel5.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextLabel5.TextScaled = true
+TextLabel5.TextSize = 14.000
+TextLabel5.TextWrapped = true
+
+wait(2)
+TextLabel5.Visible = false
+TextLabel6.Visible = true
+
+TextLabel6.Name = "TextLabel6"
+TextLabel6.Parent = Frame
+TextLabel6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel6.BorderSizePixel = 0
+TextLabel6.Position = UDim2.new(0.25, 0, 0.477516055, 0)
+TextLabel6.Size = UDim2.new(0, 378, 0, 60)
+TextLabel6.Font = Enum.Font.SourceSansBold
+TextLabel6.Text = "Success! Welcome, User"
+TextLabel6.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextLabel6.TextScaled = true
+TextLabel6.TextSize = 14.000
+TextLabel6.TextWrapped = true
+
+
+wait(3)
+
+TextButton.Visible = true
