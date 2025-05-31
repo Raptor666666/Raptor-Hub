@@ -13,11 +13,26 @@ local TextLabel3 = Instance.new("TextLabel")
 local TextLabel4 = Instance.new("TextLabel")
 local TextLabel5 = Instance.new("TextLabel")
 local TextLabel6 = Instance.new("TextLabel")
+local UIcorner = Instance.new("UICorner")
+local UIStroke = Instance.new("UIStroke")
+local UIGradient = Instance.new("UIGradient")
+
+local function ZIZWA_fake_script()
+	local script = Instance.new('LocalScript', UIGradient)
+
+	local UIGradient = script.parent
+	while true do
+		UIGradient.Rotation += 5
+		wait()
+	end
+end
+coroutine.wrap(ZIZWA_fake_script)()
 
 --Properties:
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.Parent = game.CoreGui
 
 Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -28,6 +43,15 @@ Frame.Size = UDim2.new(0, 808, 0, 467)
 Frame.Active = true
 Frame.Visible = true
 Frame.Draggable = true
+
+UIcorner.Parent = Frame
+
+UIStroke.Parent = Frame
+UIStroke.Thickness = 3
+UIStroke.Color = Color3.fromRGB(255, 255, 255)
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.56, Color3.fromRGB(85, 85, 127)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 85, 255))}
+UIGradient.Parent = UIStroke
 
 TextLabel.Parent = Frame
 TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -140,7 +164,7 @@ TextLabel5.BorderSizePixel = 0
 TextLabel5.Position = UDim2.new(0.25, 0, 0.477516055, 0)
 TextLabel5.Size = UDim2.new(0, 378, 0, 60)
 TextLabel5.Font = Enum.Font.SourceSansBold
-TextLabel5.Text = "Updating UI To Version 11.6 . . ."
+TextLabel5.Text = "Updating UI To Version 11.7 . . ."
 TextLabel5.TextColor3 = Color3.fromRGB(255, 85, 0)
 TextLabel5.TextScaled = true
 TextLabel5.TextSize = 14.000
@@ -158,11 +182,17 @@ TextLabel6.BorderSizePixel = 0
 TextLabel6.Position = UDim2.new(0.25, 0, 0.477516055, 0)
 TextLabel6.Size = UDim2.new(0, 378, 0, 60)
 TextLabel6.Font = Enum.Font.SourceSansBold
-TextLabel6.Text = "Success! Welcome, User"
+TextLabel6.Text = "Success! Welcome"
 TextLabel6.TextColor3 = Color3.fromRGB(255, 85, 0)
 TextLabel6.TextScaled = true
 TextLabel6.TextSize = 14.000
 TextLabel6.TextWrapped = true
+
+game.StarterGui:SetCore("SendNotification", {
+	Title = "Successfully loaded welcome,",
+	Text = "" ..game.Players.LocalPlayer.Name,
+	Duration = 5,
+})
 
 
 wait(3)
