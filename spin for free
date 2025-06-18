@@ -1,0 +1,112 @@
+local BlekLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/laderite/bleklib/main/library.lua"))()
+
+local win = BlekLib:Create({
+    Name = "RaptorX Premium - Spin For Free v2",
+    StartupSound = {
+        Toggle = false,
+        SoundID = "rbxassetid://6958727243",
+        TimePosition = 1
+    }
+})
+
+local maintab = win:Tab('Main')
+
+maintab:Button('AutoFinish Obby 1', function()
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoid = character:WaitForChild("Humanoid")
+
+local function jumpOnce()
+    if humanoid then
+        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+    end
+end
+
+wait(1)
+jumpOnce()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2549.82568359375, 247.77076721191406, 1076.7803955078125)
+
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoid = character:WaitForChild("Humanoid")
+
+local function jumpOnce()
+    if humanoid then
+        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+    end
+end
+
+wait(1)
+jumpOnce()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2663.38134765625, 257.4338684082031, 1069.783203125)
+
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoid = character:WaitForChild("Humanoid")
+
+local function jumpOnce()
+    if humanoid then
+        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+    end
+end
+
+wait(1)
+jumpOnce()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2744.1796875, 273.0278625488281, 1167.34814453125)
+end)
+
+maintab:Button('AutoFinish Obby 2', function()
+    local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoid = character:WaitForChild("Humanoid")
+
+local function jumpOnce()
+    if humanoid then
+        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+    end
+end
+
+wait(1)
+jumpOnce()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2391.177978515625, 291.4714050292969, -202.68060302734375)
+
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoid = character:WaitForChild("Humanoid")
+
+local function jumpOnce()
+    if humanoid then
+        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+    end
+end
+
+wait(1)
+jumpOnce()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2479.557373046875, 289.3854675292969, -49.29718780517578)
+
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoid = character:WaitForChild("Humanoid")
+
+local function jumpOnce()
+    if humanoid then
+        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+    end
+end
+
+wait(1)
+jumpOnce()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2587.214599609375, 333.1742858886719, 179.034912109375)
+end)
+
+
+
+maintab:Button('Destroy GUI', function()
+    win:Exit()
+end)
